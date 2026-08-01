@@ -14,6 +14,7 @@ export const dictionary = {
       food: "음식",
       mead: "미드",
       biomes: "바이옴",
+      mods: "모드",
     },
     footer: {
       disclaimer1:
@@ -33,6 +34,7 @@ export const dictionary = {
       food: "Food",
       mead: "Mead",
       biomes: "Biomes",
+      mods: "Mods",
     },
     footer: {
       disclaimer1:

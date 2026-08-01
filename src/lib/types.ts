@@ -482,3 +482,49 @@ export interface RawFoodBiomesFile {
   eitr_system: Record<string, unknown>;
   data_gaps_and_notes: Record<string, unknown>;
 }
+
+// ─────────────────────────────────────────────────────────────
+// mods.json — 서드파티 모드 카탈로그
+// ─────────────────────────────────────────────────────────────
+
+/**
+ * 모드는 서드파티 창작물이라 다른 엔티티와 조인 방식이 다르다.
+ * `name` 은 번역하지 않는 원문 고유명사이고 `name_ko` 자체가 없다
+ * (docs/entities/mods.md 참고).
+ */
+export interface Mod {
+  slug: string;
+  name: string;
+  author: string;
+  platform: string;
+  url: string;
+  /** BepInEx 등 선행 설치 요구사항. 비어있지 않으면 UI에서 반드시 표시할 것 */
+  requires: string[];
+  category: string;
+  summaryKo: string;
+  beginnerReasonKo: string;
+  installDifficulty: string;
+  gameplayImpact: string;
+  /** 마지막으로 실제 재검증한 날짜. UI에 반드시 노출할 것 */
+  lastVerified: string;
+}
+
+export interface RawMod {
+  slug: string;
+  name: string;
+  author: string;
+  platform: string;
+  url: string;
+  requires?: string[];
+  category: string;
+  summary_ko: string;
+  beginner_reason_ko: string;
+  install_difficulty: string;
+  gameplay_impact: string;
+  last_verified: string;
+}
+
+export interface RawModsFile {
+  meta: RawMeta;
+  mods: RawMod[];
+}

@@ -1,12 +1,20 @@
 import type { MetadataRoute } from "next";
 
-import { biomes, bosses, creatures, food, items, meadPotions } from "@/lib/data";
+import { biomes, bosses, creatures, food, items, meadPotions, mods } from "@/lib/data";
 
 export const dynamic = "force-static";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://valheim-calc.pages.dev";
 
-const LIST_PAGES = ["/db/items/", "/db/creatures/", "/db/bosses/", "/db/food/", "/db/mead/", "/db/biomes/"];
+const LIST_PAGES = [
+  "/db/items/",
+  "/db/creatures/",
+  "/db/bosses/",
+  "/db/food/",
+  "/db/mead/",
+  "/db/biomes/",
+  "/db/mods/",
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const detailUrls = [
@@ -16,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...food.map((e) => `/db/food/${e.slug}/`),
     ...meadPotions.map((e) => `/db/mead/${e.slug}/`),
     ...biomes.map((e) => `/db/biomes/${e.slug}/`),
+    ...mods.map((e) => `/db/mods/${e.slug}/`),
   ];
 
   const paths = ["/", "/about/", ...LIST_PAGES, ...detailUrls];

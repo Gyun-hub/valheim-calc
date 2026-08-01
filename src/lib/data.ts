@@ -12,6 +12,7 @@
 import rawCreaturesFile from "../../data/creatures.json";
 import rawFoodBiomesFile from "../../data/food-biomes.json";
 import rawItemsFile from "../../data/items.json";
+import rawModsFile from "../../data/mods.json";
 
 import { parseDamage, parseGuaranteedDrops, parseRegen } from "./parse";
 import { buildSlugMap, toSlug } from "./slug";
@@ -32,6 +33,7 @@ import type {
   MagicItem,
   Material,
   MeadPotion,
+  Mod,
   RawBiome,
   RawBoss,
   RawBuildingPiece,
@@ -45,6 +47,8 @@ import type {
   RawMagic,
   RawMaterial,
   RawMead,
+  RawMod,
+  RawModsFile,
   RawRecipe,
   RawShip,
   RawTaming,
@@ -57,6 +61,7 @@ import type {
 const itemsFile = rawItemsFile as unknown as RawItemsFile;
 const creaturesFile = rawCreaturesFile as unknown as RawCreaturesFile;
 const foodBiomesFile = rawFoodBiomesFile as unknown as RawFoodBiomesFile;
+const modsFile = rawModsFile as unknown as RawModsFile;
 
 // ─────────────────────────────────────────────────────────────
 // 정규화 헬퍼
@@ -413,6 +418,32 @@ export const biomes: Biome[] = foodBiomesFile.biomes
   .sort((a, b) => a.progressionOrder - b.progressionOrder);
 export const ships: Ship[] = foodBiomesFile.ships.map(normalizeShip);
 export const magicItems: MagicItem[] = foodBiomesFile.magic.map(normalizeMagic);
+
+// ─────────────────────────────────────────────────────────────
+// mods.json — 서드파티 모드 카탈로그
+// ─────────────────────────────────────────────────────────────
+
+function normalizeMod(raw: RawMod): Mod {
+  return {
+    slug: raw.slug,
+    name: raw.name,
+    author: raw.author,
+    platform: raw.platform,
+    url: raw.url,
+    requires: raw.requires ?? [],
+    category: raw.category,
+    summaryKo: raw.summary_ko,
+    beginnerReasonKo: raw.beginner_reason_ko,
+    installDifficulty: raw.install_difficulty,
+    gameplayImpact: raw.gameplay_impact,
+    lastVerified: raw.last_verified,
+  };
+}
+
+export const mods: Mod[] = modsFile.mods.map(normalizeMod);
+
+/** slug 는 데이터에 이미 확정돼 있어 buildSlugMap(toSlug 재계산) 을 쓰지 않는다 */
+export const modsBySlug: ReadonlyMap<string, Mod> = new Map(mods.map((m) => [m.slug, m]));
 
 // ─────────────────────────────────────────────────────────────
 // 조회 인덱스

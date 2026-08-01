@@ -31,7 +31,7 @@ export function Badge({
  */
 export function ConfidenceBadge({ confidence }: { confidence: "datamined" | "community" }) {
   return confidence === "datamined" ? (
-    <Badge tone="success">게임 파일 추출</Badge>
+    <Badge tone="success">데이터마이닝 추정치</Badge>
   ) : (
     <Badge tone="warning">커뮤니티 추정</Badge>
   );

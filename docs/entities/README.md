@@ -13,7 +13,7 @@
 | 음식 | [food.md](food.md) | `/db/food` | 38 |
 | 미드·포션 | [mead.md](mead.md) | `/db/mead` | 16 |
 | 바이옴 | [biomes.md](biomes.md) | `/db/biomes` | 9 |
-| 모드 | [mods.md](mods.md) | (미구현) | 개수는 `data/mods.json` 확인 |
+| 모드 | [mods.md](mods.md) | `/db/mods` | 16 |
 
 ## 대응 스킬
 
@@ -28,7 +28,7 @@
 | `/entity-food` | 음식 도감 수정 |
 | `/entity-mead` | 미드 도감 수정 |
 | `/entity-biomes` | 바이옴 도감 수정 |
-| `/entity-mods` | 모드 카탈로그 수정 (미구현) |
+| `/entity-mods` | 모드 카탈로그 수정 |
 
 ## 문서 공통 구조
 

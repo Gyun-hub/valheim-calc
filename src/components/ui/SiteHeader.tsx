@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { useLocale } from "./LocaleProvider";
 
-const NAV_KEYS = ["items", "creatures", "bosses", "food", "mead", "biomes"] as const;
+const NAV_KEYS = ["items", "creatures", "bosses", "food", "mead", "biomes", "mods"] as const;
 
 export function SiteHeader() {
   const { toggle, t } = useLocale();
