@@ -98,13 +98,6 @@ export default function AboutPage() {
         </div>
       </Section>
 
-      <Section title="이미지에 대해">
-        <p className="text-sm leading-relaxed text-text-muted">
-          게임 에셋(아이콘 · 모델 · 아트워크)은 이 사이트에 올리지 않습니다. 아이콘이 필요한
-          곳에는 직접 제작한 것만 사용합니다.
-        </p>
-      </Section>
-
       <Section title="문의">
         <p className="text-sm leading-relaxed text-text-muted">
           수치 오류나 누락을 발견하셨다면 알려 주세요. 확인 후 반영하겠습니다.
