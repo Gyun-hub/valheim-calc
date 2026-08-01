@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+/**
+ * 디자인 토큰.
+ *
+ * 방향: 발헤임의 밤 — 차가운 청회색 배경에 양피지 색 글자.
+ * 중성 검정(#000 계열)을 쓰지 않는다. 파랑으로 기운 어둠이라야 게임의
+ * 안개 낀 북구 밤과 붙는다.
+ *
+ * 색을 컴포넌트에 직접 박지 말 것. 여기 토큰만 쓴다.
+ */
+:root {
+  /* 배경 계층 — 낮을수록 뒤 */
+  --color-bg: #12161c;
+  --color-surface: #1a2029;
+  --color-surface-raised: #232b36;
+  --color-border: #2b3540;
+  --color-border-strong: #44505f;
+
+  /* 텍스트 — 순백 대신 양피지/뼈 색. 어두운 화면에서 눈이 덜 아프다 */
+  --color-text: #e8e2d4;
+  --color-text-muted: #98a1ac;
+  --color-text-faint: #6b7480;
+
+  /* 액센트 — 산화 청동. 게임의 첫 금속 티어에서 가져옴.
+     화면 전체의 정체성을 이 색에 걸지 않는다. 링크·포커스 등 기능용. */
+  --color-accent: #c4874e;
+  --color-accent-hover: #dda069;
+  --color-accent-contrast: #12161c;
+
+  /* 상태 */
+  --color-danger: #c65f52;
+  --color-warning: #c4913f;
+  --color-success: #6f9463;
+  --color-info: #5f8bab;
+
+  /**
+   * 바이옴 색 — 이 사이트의 구조 장치.
+   *
+   * 장식이 아니라 진행 티어를 인코딩한다. 플레이어는 "이 몬스터를 지금
+   * 상대할 수 있나"를 이 색으로 즉시 판단한다.
+   *
+   * 전부 채도를 낮췄다. 9색이 동시에 보이므로 원색을 쓰면 무지개가 된다.
+   * 사용처는 3px 마커와 작은 점뿐 — 면을 채우지 않는다.
+   */
+  --biome-meadows: #7a9a5c; /* 초원 — 풀빛 */
+  --biome-black-forest: #3f6b52; /* 검은 숲 — 깊은 침엽수 */
+  --biome-swamp: #6b6a3a; /* 늪 — 탁한 올리브 */
+  --biome-mountain: #8fb3cc; /* 산 — 얼음빛 */
+  --biome-plains: #c2a04d; /* 평원 — 보리밭 */
+  --biome-ocean: #4a7a94; /* 바다 — 깊은 물 */
+  --biome-mistlands: #8272a8; /* 안개 대지 — 이계의 보랏빛 */
+  --biome-ashlands: #b5544a; /* 잿불 대지 — 잉걸불 */
+  --biome-deep-north: #b9cdd6; /* 극북 — 서리 */
+
+  /* 컴포넌트가 문맥에 따라 덮어쓰는 슬롯. 기본은 색 없음 */
+  --biome-current: var(--color-border-strong);
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-surface-raised: var(--color-surface-raised);
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-faint: var(--color-text-faint);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-accent-contrast: var(--color-accent-contrast);
+  --color-danger: var(--color-danger);
+  --color-warning: var(--color-warning);
+  --color-success: var(--color-success);
+  --color-info: var(--color-info);
+
+  /* 표제 — 한글 세리프. 획의 세로 강세가 돌에 새긴 룬처럼 읽힌다 */
+  --font-display: var(--font-display-stack);
+  /* 본문 */
+  --font-sans: var(--font-sans-stack);
+  /* 수치 — 계산기 사이트의 본체. 자릿수가 흔들리면 안 된다 */
+  --font-mono: var(--font-mono-stack);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/**
+ * 수치는 전부 고정폭 + 등폭 숫자.
+ * 스탯 표에서 자릿수가 세로로 맞아야 값을 눈으로 비교할 수 있다.
+ */
+.num {
+  font-family: var(--font-mono-stack), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/**
+ * 바이옴 마커 — 카드·행 왼쪽에 붙는 얇은 띠.
+ * 색은 `--biome-current` 를 통해 문맥에서 주입된다.
+ */
+.biome-marked {
+  border-left: 3px solid var(--biome-current);
+}
+
+/* 키보드 포커스는 항상 보이게 */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

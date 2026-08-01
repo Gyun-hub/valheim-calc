@@ -1,0 +1,1456 @@
+{
+  "meta": {
+    "collected_at": "2026-07-30",
+    "sources": [
+      "https://valheim.fandom.com/wiki/Food",
+      "https://valheim.fandom.com/wiki/Mead",
+      "https://valheim.fandom.com/wiki/Biomes",
+      "https://valheim.fandom.com/wiki/Ships",
+      "https://valheim.fandom.com/wiki/Magic",
+      "https://valheimcheats.com/food",
+      "https://xgamingserver.com/blog/valheim-mead-potion-recipes/",
+      "https://www.bamboogaming.net/valheim/biomes",
+      "https://www.bisecthosting.com/blog/valheim-boats-ships-stats-crafting-materials-raft-karve-longship-drakkar",
+      "https://eip.gg/valheim/guides/complete-food-list/",
+      "https://www.4netplayers.com/en/blog/valheim/valheim-mead-guide-recipes-effects/",
+      "https://www.valheim.tools/meads"
+    ],
+    "notes": "Images are reference-only, sourced from community wiki uploads and game assets — must be redrawn/replaced before public commercial use per project legal guidelines. Data reflects Valheim as of July 2026, including Deep North preview content coming September 2026. Korean names sourced from 나무위키 (namu.wiki), Steam Korean community, and KoreanTranslationFix mod; community translations verified where available, direct Korean translations provided where official names unavailable."
+  },
+  "food": [
+    {
+      "name_en": "Raspberry",
+      "name_ko": "라즈베리",
+      "health": 7,
+      "stamina": 20,
+      "eitr": 0,
+      "duration_sec": 600,
+      "regen": "1 HP/s",
+      "ingredients": [],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/7e/Raspberries.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Mushroom",
+      "name_ko": "버섯",
+      "health": 5,
+      "stamina": 15,
+      "eitr": 0,
+      "duration_sec": 600,
+      "regen": "0.5 HP/s",
+      "ingredients": [],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/8c/Mushroom.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Honey",
+      "name_ko": "꿀",
+      "health": 8,
+      "stamina": 3,
+      "eitr": 0,
+      "duration_sec": 600,
+      "regen": "1 HP/s",
+      "ingredients": [],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/c6/Honey.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Cooked Meat",
+      "name_ko": "조리된 고기",
+      "health": 20,
+      "stamina": 10,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Raw Meat"
+      ],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Carrot",
+      "name_ko": "당근",
+      "health": 10,
+      "stamina": 15,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "2 HP/s",
+      "ingredients": [],
+      "tier": 2,
+      "biome": "Black Forest",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/c3/Carrot.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Honey Glazed Chicken",
+      "name_ko": "꿀 유약 칠한 닭",
+      "health": 80,
+      "stamina": 26,
+      "eitr": 0,
+      "duration_sec": 1800,
+      "regen": "5 HP/s",
+      "ingredients": [
+        "Chicken",
+        "Honey"
+      ],
+      "tier": 3,
+      "biome": "Swamp",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/a8/Uncooked_honey_glazed_chicken.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Serpent Stew",
+      "name_ko": "뱀 스튜",
+      "health": 80,
+      "stamina": 26,
+      "eitr": 0,
+      "duration_sec": 1800,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Serpent Meat",
+        "Mushroom",
+        "Thistle"
+      ],
+      "tier": 3,
+      "biome": "Swamp",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/55/Serpent_stew.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Lox Meat Pie",
+      "name_ko": "록스 고기 파이",
+      "health": 75,
+      "stamina": 24,
+      "eitr": 0,
+      "duration_sec": 1800,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Lox Meat",
+        "Barley Flour",
+        "Mushroom"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/11/Unbaked_lox_pie.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Piquant Pie",
+      "name_ko": "매콤한 파이",
+      "health": 105,
+      "stamina": 35,
+      "eitr": 0,
+      "duration_sec": 1800,
+      "regen": "6 HP/s",
+      "ingredients": [
+        "Flametal",
+        "Barley Flour",
+        "Mushroom"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/8f/Uncooked_piquant_pie.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Roasted Crust Pie",
+      "name_ko": "로스트 크러스트 파이",
+      "health": 105,
+      "stamina": 35,
+      "eitr": 0,
+      "duration_sec": 1800,
+      "regen": "6 HP/s",
+      "ingredients": [
+        "Flametal",
+        "Barley Flour",
+        "Thistle"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/76/Uncooked_roasted_crust_pie.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Mashed Meat",
+      "name_ko": "으깬 고기",
+      "health": 100,
+      "stamina": 34,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "6 HP/s",
+      "ingredients": [
+        "Lox Meat",
+        "Turnip",
+        "Mushroom"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/47/Mashed_meat.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Ashlands Feast",
+      "name_ko": "애쉬랜즈 잔치",
+      "health": 75,
+      "stamina": 75,
+      "eitr": 38,
+      "duration_sec": 1800,
+      "regen": "5 HP/s",
+      "ingredients": [
+        "Flametal",
+        "Barley Flour",
+        "Mushroom"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Marinated Greens",
+      "name_ko": "절인 채소",
+      "health": 20,
+      "stamina": 20,
+      "eitr": 95,
+      "duration_sec": 1800,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Thistle",
+        "Mushroom",
+        "Barley"
+      ],
+      "tier": 6,
+      "biome": "Mistlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/4d/Marinated_greens.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Misthare Supreme",
+      "name_ko": "미스테어 슈프림",
+      "health": 50,
+      "stamina": 60,
+      "eitr": 40,
+      "duration_sec": 1800,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Hare Meat",
+        "Mushroom",
+        "Carrot"
+      ],
+      "tier": 6,
+      "biome": "Mistlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/16/Uncooked_misthare_supreme.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Fish n Bread",
+      "name_ko": "생선과 빵",
+      "health": 55,
+      "stamina": 50,
+      "eitr": 35,
+      "duration_sec": 1800,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Fish",
+        "Barley Flour"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Seeker Aspic",
+      "name_ko": "시커 아스픽",
+      "health": 45,
+      "stamina": 45,
+      "eitr": 40,
+      "duration_sec": 1800,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Seeker Meat",
+        "Mushroom",
+        "Thistle"
+      ],
+      "tier": 6,
+      "biome": "Mistlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/1a/Seeker_aspic.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Mushroom Omelette",
+      "name_ko": "버섯 오믈렛",
+      "health": 40,
+      "stamina": 40,
+      "eitr": 30,
+      "duration_sec": 1800,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Mushroom",
+        "Egg"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/7b/Mushroom_omelette.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Yggdrasil Porridge",
+      "name_ko": "이그드라실 죽",
+      "health": 50,
+      "stamina": 50,
+      "eitr": 50,
+      "duration_sec": 1800,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Yggdrasil Wood",
+        "Mushroom",
+        "Thistle"
+      ],
+      "tier": 6,
+      "biome": "Mistlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/e1/Yggdrasil_porridge.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Stuffed Mushroom",
+      "name_ko": "속을 채운 버섯",
+      "health": 35,
+      "stamina": 35,
+      "eitr": 25,
+      "duration_sec": 1800,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Mushroom",
+        "Carrot",
+        "Turnip"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/28/Uncooked_stuffed_shroom.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Cooked Deer Meat",
+      "name_ko": "요리한 사슴 고기",
+      "health": 35,
+      "stamina": 12,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Deer Meat"
+      ],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Queen's Jam",
+      "name_ko": "여왕의 잼",
+      "health": 14,
+      "stamina": 40,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Raspberry",
+        "Blueberries"
+      ],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Cooked Fish",
+      "name_ko": "요리한 생선",
+      "health": 45,
+      "stamina": 15,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Fish"
+      ],
+      "tier": 1,
+      "biome": "Meadows",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Deer Stew",
+      "name_ko": "사슴 스튜",
+      "health": 45,
+      "stamina": 15,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Cooked Deer Meat",
+        "Blueberries",
+        "Carrot"
+      ],
+      "tier": 2,
+      "biome": "Black Forest",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Minced Meat Sauce",
+      "name_ko": "다진 고기 소스",
+      "health": 40,
+      "stamina": 13,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Boar Meat",
+        "Carrot",
+        "Neck Tail"
+      ],
+      "tier": 2,
+      "biome": "Black Forest",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Carrot Soup",
+      "name_ko": "당근 수프",
+      "health": 15,
+      "stamina": 45,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Carrot",
+        "Mushroom"
+      ],
+      "tier": 2,
+      "biome": "Black Forest",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Sausages",
+      "name_ko": "소시지",
+      "health": 55,
+      "stamina": 18,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Entrails",
+        "Boar Meat",
+        "Thistle"
+      ],
+      "tier": 3,
+      "biome": "Swamp",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Turnip Stew",
+      "name_ko": "순무 스튜",
+      "health": 18,
+      "stamina": 55,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Boar Meat",
+        "Turnip"
+      ],
+      "tier": 3,
+      "biome": "Swamp",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Onion Soup",
+      "name_ko": "양파 수프",
+      "health": 20,
+      "stamina": 60,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "1 HP/s",
+      "ingredients": [
+        "Onion"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Bread",
+      "name_ko": "빵",
+      "health": 23,
+      "stamina": 70,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Bread Dough"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Blood Pudding",
+      "name_ko": "블랙 푸딩",
+      "health": 25,
+      "stamina": 75,
+      "eitr": 0,
+      "duration_sec": 1800,
+      "regen": "2 HP/s",
+      "ingredients": [
+        "Barley Flour",
+        "Bloodbag",
+        "Thistle"
+      ],
+      "tier": 5,
+      "biome": "Plains",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Fish Wraps",
+      "name_ko": "피쉬 랩",
+      "health": 70,
+      "stamina": 23,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Cooked Fish",
+        "Barley Flour"
+      ],
+      "tier": 6,
+      "biome": "Mistlands",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Salad",
+      "name_ko": "샐러드",
+      "health": 26,
+      "stamina": 80,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Jotun Puffs",
+        "Onion",
+        "Cloudberry"
+      ],
+      "tier": 6,
+      "biome": "Mistlands",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Wolf Skewer",
+      "name_ko": "늑대 고기 꼬치",
+      "health": 65,
+      "stamina": 21,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "3 HP/s",
+      "ingredients": [
+        "Wolf Meat",
+        "Mushroom",
+        "Onion"
+      ],
+      "tier": 4,
+      "biome": "Mountain",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Eyescream",
+      "name_ko": "아이스크림",
+      "health": 21,
+      "stamina": 65,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "1 HP/s",
+      "ingredients": [
+        "Greydwarf Eye",
+        "Freeze Gland"
+      ],
+      "tier": 4,
+      "biome": "Mountain",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Muckshake",
+      "name_ko": "먹쉐이크",
+      "health": 16,
+      "stamina": 50,
+      "eitr": 0,
+      "duration_sec": 1200,
+      "regen": "1 HP/s",
+      "ingredients": [
+        "Ooze",
+        "Raspberry",
+        "Blueberries"
+      ],
+      "tier": 3,
+      "biome": "Swamp",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Scorching Medley",
+      "name_ko": "맹화의 메들리",
+      "health": 32,
+      "stamina": 95,
+      "eitr": 0,
+      "duration_sec": 1500,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Jotun Puffs",
+        "Onion",
+        "Fiddlehead"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Sparkling Shroomshake",
+      "name_ko": "스파클링 버섯쉐이크",
+      "health": 30,
+      "stamina": 15,
+      "eitr": 90,
+      "duration_sec": 1500,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Sap",
+        "Vineberry Cluster",
+        "Smoke Puff",
+        "Magecap Mushroom"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Sizzling Berry Broth",
+      "name_ko": "탄산 베리 죽",
+      "health": 28,
+      "stamina": 14,
+      "eitr": 85,
+      "duration_sec": 1500,
+      "regen": "4 HP/s",
+      "ingredients": [
+        "Sap",
+        "Fiddlehead",
+        "Vineberry Cluster"
+      ],
+      "tier": 7,
+      "biome": "Ashlands",
+      "image_source_url": null,
+      "image_local_path": null
+    }
+  ],
+  "mead_potions": [
+    {
+      "name_en": "Minor Healing Mead",
+      "name_ko": "마이너 힐링 미드",
+      "effect": "Health Restoration",
+      "magnitude": "50 HP over 10 seconds",
+      "duration_sec": 10,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "5x Blueberries",
+        "10x Raspberries",
+        "1x Dandelion"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/4f/Mead_base_-_Minor_healing.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Medium Healing Mead",
+      "name_ko": "미디움 힐링 미드",
+      "effect": "Health Restoration",
+      "magnitude": "75 HP over 10 seconds",
+      "duration_sec": 10,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "4x Bloodbag",
+        "10x Raspberries",
+        "1x Dandelion"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/6f/Mead_base_-_Medium_healing.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Major Healing Mead",
+      "name_ko": "메이저 힐링 미드",
+      "effect": "Health Restoration",
+      "magnitude": "125 HP instantaneous",
+      "duration_sec": 0,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "10x Thistle",
+        "1x Bloodbag"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/60/Mead_base_-_Major_healing.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Lingering Healing Mead",
+      "name_ko": "지속형 힐링 미드",
+      "effect": "Health Restoration (Lingering)",
+      "magnitude": "25% health over 5 minutes",
+      "duration_sec": 300,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "5x Bloodbag",
+        "1x Mushroom"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/97/Mead_base_-_Lingering_health.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Minor Stamina Mead",
+      "name_ko": "마이너 스태미나 미드",
+      "effect": "Stamina Restoration",
+      "magnitude": "80 stamina + faster regen for 120 seconds",
+      "duration_sec": 120,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "10x Raspberries",
+        "10x Yellow Mushrooms"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/76/Mead_base_-_Minor_stamina.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Medium Stamina Mead",
+      "name_ko": "미디움 스태미나 미드",
+      "effect": "Stamina Restoration",
+      "magnitude": "160 stamina + faster regen for 120 seconds",
+      "duration_sec": 120,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "10x Cloudberries",
+        "10x Yellow Mushrooms"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/21/Mead_base_-_Medium_stamina.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Lingering Stamina Mead",
+      "name_ko": "지속형 스태미나 미드",
+      "effect": "Stamina Restoration (Lingering)",
+      "magnitude": "25% stamina over 5 minutes",
+      "duration_sec": 300,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "10x Thistle",
+        "10x Yellow Mushrooms"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/67/Mead_base_-_Lingering_stamina.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Frost Resistance Mead",
+      "name_ko": "서리 저항 미드",
+      "effect": "Frost Resistance",
+      "magnitude": "Resist freezing damage",
+      "duration_sec": 600,
+      "cooldown_sec": 60,
+      "brew_ingredients": [
+        "10x Honey",
+        "5x Thistle",
+        "2x Bloodbag",
+        "1x Greydwarf Eye"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "notes": "Effect broken if player gets wet",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/0/0b/Mead_base_-_Frost_resistance.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Poison Resistance Mead",
+      "name_ko": "독 저항 미드",
+      "effect": "Poison Resistance",
+      "magnitude": "Resist poison damage & shorten poison duration",
+      "duration_sec": 600,
+      "cooldown_sec": 60,
+      "brew_ingredients": [
+        "10x Honey",
+        "5x Thistle",
+        "1x Neck Tail",
+        "10x Coal"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/23/Mead_base_-_Poison_resistance.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Fire Resistance Mead (Barley Wine)",
+      "name_ko": "화염 저항 미드",
+      "effect": "Fire Resistance",
+      "magnitude": "Resist fire damage",
+      "duration_sec": 600,
+      "cooldown_sec": 60,
+      "brew_ingredients": [
+        "10x Barley",
+        "10x Cloudberries"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Berserkir Mead",
+      "name_ko": "베르세르크 미드",
+      "effect": "Combat Buff",
+      "magnitude": "-80% stamina cost for attack, block, dodge",
+      "duration_sec": 20,
+      "cooldown_sec": 0,
+      "brew_ingredients": [
+        "10x Barley",
+        "10x Honey",
+        "2x Thistle"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "3 bottles per batch",
+      "notes": "No cooldown; can be used every 20 seconds",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/0/0f/Mead_base_-_Berserkir.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Ratatosk Mead",
+      "name_ko": "라타토스크 미드",
+      "effect": "Movement Speed Buff",
+      "magnitude": "+15% running speed, +7.5% swimming speed",
+      "duration_sec": 300,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "10x Cloudberries",
+        "5x Mushroom"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Mead of Troll Endurance",
+      "name_ko": "트롤 인내 미드",
+      "effect": "Carry Weight Buff",
+      "magnitude": "+250 carry weight",
+      "duration_sec": 300,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "2x Trollfish",
+        "10x Honey",
+        "1x Powdered Dragon Eggshells"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/81/Mead_base_-_Troll_endurance.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Small Eitr Mead",
+      "name_ko": "스몰 에이트르 미드",
+      "effect": "Eitr Restoration",
+      "magnitude": "125 Eitr instantaneous",
+      "duration_sec": 0,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "5x Magecap Mushroom",
+        "2x Black Core"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Lingering Eitr Mead",
+      "name_ko": "지속형 에이트르 미드",
+      "effect": "Eitr Restoration (Lingering)",
+      "magnitude": "25% eitr regen over 5 minutes",
+      "duration_sec": 300,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "10x Magecap Mushroom",
+        "5x Black Core"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/2a/Mead_base_-_Lingering_eitr.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Tasty Mead",
+      "name_ko": "맛있는 미드",
+      "effect": "Stamina Regeneration Buff",
+      "magnitude": "+100% stamina regen, -50% HP regen",
+      "duration_sec": 300,
+      "cooldown_sec": 120,
+      "brew_ingredients": [
+        "10x Honey",
+        "5x Thistle",
+        "10x Raspberries"
+      ],
+      "brew_time": "2 in-game days (60 minutes real-time)",
+      "brew_yield": "6 bottles per batch",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/9d/Mead_base_-_Tasty.png",
+      "image_local_path": null
+    }
+  ],
+  "biomes": [
+    {
+      "name_en": "Meadows",
+      "name_ko": "초원",
+      "progression_order": 1,
+      "boss_name": "Eikthyr",
+      "key_resources": [
+        "Wood",
+        "Stone",
+        "Flint",
+        "Berries",
+        "Mushrooms",
+        "Honey",
+        "Deer Hide",
+        "Leather Scraps"
+      ],
+      "key_creatures": [
+        "Greyling",
+        "Boar",
+        "Neck",
+        "Deer",
+        "Bee"
+      ],
+      "notable_structures": [
+        "Ancient Stone Tower",
+        "Bee Nests",
+        "Burial Grounds"
+      ],
+      "special_mechanics": "Safe starter biome; teaches basic crafting and cooking",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/52/Biome_meadows.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Black Forest",
+      "name_ko": "검은 숲",
+      "progression_order": 2,
+      "boss_name": "The Elder",
+      "key_resources": [
+        "Copper Ore",
+        "Tin Ore",
+        "Surtling Cores",
+        "Core Wood",
+        "Greydwarf Eyes",
+        "Thistle"
+      ],
+      "key_creatures": [
+        "Greydwarf",
+        "Greydwarf Brute",
+        "Greydwarf Shaman",
+        "Skeleton",
+        "Ghost",
+        "Troll"
+      ],
+      "notable_structures": [
+        "Burial Chambers",
+        "Troll Caves"
+      ],
+      "special_mechanics": "Mining attracts enemies; requires Antler Pickaxe for ore extraction; Bronze Age progression",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/cf/Biome_blackforest.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Ocean",
+      "name_ko": "대양",
+      "progression_order": 2.5,
+      "boss_name": "None",
+      "key_resources": [
+        "Chitin",
+        "Serpent Meat",
+        "Serpent Scales",
+        "Ocean Fish"
+      ],
+      "key_creatures": [
+        "Serpent",
+        "Leviathan"
+      ],
+      "notable_structures": [
+        "Leviathan Nests",
+        "Barnacles"
+      ],
+      "special_mechanics": "Boats required for travel; cannot transport metal via portals; home of sea creatures",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/62/Biome_ocean.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Swamp",
+      "name_ko": "늪",
+      "progression_order": 3,
+      "boss_name": "Bonemass",
+      "key_resources": [
+        "Scrap Iron",
+        "Withered Bone",
+        "Ancient Bark",
+        "Turnip Seeds",
+        "Ooze",
+        "Guck"
+      ],
+      "key_creatures": [
+        "Draugr",
+        "Draugr Elite",
+        "Blob",
+        "Oozer",
+        "Leech",
+        "Wraith",
+        "Abomination"
+      ],
+      "notable_structures": [
+        "Sunken Crypts",
+        "Draugr Fortresses"
+      ],
+      "special_mechanics": "Wet debuff reduces regen; poison damage prevalent; requires poison resistance mead; Iron Age unlocks",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/d/d4/Biome_swamp.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Mountains",
+      "name_ko": "산",
+      "progression_order": 4,
+      "boss_name": "Moder",
+      "key_resources": [
+        "Silver",
+        "Obsidian",
+        "Onion Seeds",
+        "Wolf Pelt",
+        "Freeze Gland",
+        "Crystal",
+        "Dragon Egg"
+      ],
+      "key_creatures": [
+        "Wolf",
+        "Drake",
+        "Stone Golem",
+        "Fenring",
+        "Cultist",
+        "Bat"
+      ],
+      "notable_structures": [
+        "Frost Caves",
+        "Cabins",
+        "Ancient Shrines"
+      ],
+      "special_mechanics": "Freezing heavily punishes regen; Wishbone tool reveals silver veins; dragon eggs are heavy and non-portable",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/78/Biome_mountain.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Plains",
+      "name_ko": "평원",
+      "progression_order": 5,
+      "boss_name": "Yagluth",
+      "key_resources": [
+        "Black Metal Scrap",
+        "Barley",
+        "Flax",
+        "Cloudberries",
+        "Lox Meat",
+        "Needle",
+        "Tar"
+      ],
+      "key_creatures": [
+        "Deathsquito",
+        "Fuling",
+        "Fuling Shaman",
+        "Fuling Berserker",
+        "Lox",
+        "Growth"
+      ],
+      "notable_structures": [
+        "Fuling Villages",
+        "Tar Pits",
+        "Abandoned Farms"
+      ],
+      "special_mechanics": "Provides farming staples; tar pits yield building materials; hostile to large groups",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/91/Biome_heath.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Mistlands",
+      "name_ko": "미스트랜즈",
+      "progression_order": 6,
+      "boss_name": "The Queen",
+      "key_resources": [
+        "Black Core",
+        "Sap",
+        "Soft Tissue",
+        "Refined Eitr",
+        "Black Marble",
+        "Yggdrasil Wood",
+        "Carapace"
+      ],
+      "key_creatures": [
+        "Seeker",
+        "Seeker Soldier",
+        "Brood",
+        "Tick",
+        "Gjall"
+      ],
+      "notable_structures": [
+        "Infested Mines",
+        "Infested Citadel",
+        "Ancient Ruins"
+      ],
+      "special_mechanics": "Visibility becomes a core problem; Wisplight required for navigation; Magic system unlock point; introduces Eitr",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/1e/Biome_mistlands.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Ashlands",
+      "name_ko": "애쉬랜즈",
+      "progression_order": 7,
+      "boss_name": "Fader",
+      "key_resources": [
+        "Flametal",
+        "Ashwood",
+        "Askvin",
+        "Bell Fragment",
+        "Iolite",
+        "Jade",
+        "Bloodstone"
+      ],
+      "key_creatures": [
+        "Charred",
+        "Askvin",
+        "Surtling",
+        "Fire Hazards"
+      ],
+      "notable_structures": [
+        "Ashlands Altar",
+        "Fortified Ruins",
+        "Lava Pits"
+      ],
+      "special_mechanics": "Designed to overwhelm unprepared players; requires endgame preparation and strategic positioning; extreme environmental hazards",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/56/Biome_ashlands.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Deep North",
+      "name_ko": "딥 노스",
+      "progression_order": 8,
+      "boss_name": "Unknown (Final Boss)",
+      "key_resources": [
+        "Unknown",
+        "Frost-based materials",
+        "Nordic weapons materials"
+      ],
+      "key_creatures": [
+        "Gammeltroll",
+        "Elakingar (Underground)",
+        "Viking Ghost"
+      ],
+      "notable_structures": [
+        "Abandoned Viking Villages",
+        "Underground Dungeons",
+        "Frozen Ruins"
+      ],
+      "special_mechanics": "Far northern edge biome with snow, ice, and northern lights; grappling hook unlocks; two new dungeon types; NEW CONTENT - Release date September 9, 2026 with Valheim 1.0",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/22/Deepnorth.png",
+      "image_local_path": null,
+      "status": "Upcoming - Valheim 1.0 Release September 2026"
+    }
+  ],
+  "ships": [
+    {
+      "name_en": "Raft",
+      "name_ko": "뗏목",
+      "name_ko_alt": "래프트",
+      "materials": [
+        {
+          "name": "Wood",
+          "quantity": 20
+        },
+        {
+          "name": "Leather Scraps",
+          "quantity": 6
+        },
+        {
+          "name": "Resin",
+          "quantity": 6
+        }
+      ],
+      "cargo_slots": 0,
+      "speed_min_ms": 2.5,
+      "speed_max_ms": 3.1,
+      "speed_notes": "Paddling only at 1.6 m/s; basic vessel for emergency crossings",
+      "hp": 300,
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/0/08/Raft.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Karve",
+      "name_ko": "카르베",
+      "name_ko_alt": "카르비",
+      "materials": [
+        {
+          "name": "Fine Wood",
+          "quantity": 30
+        },
+        {
+          "name": "Deer Hide",
+          "quantity": 10
+        },
+        {
+          "name": "Resin",
+          "quantity": 20
+        },
+        {
+          "name": "Bronze Nails",
+          "quantity": 80
+        }
+      ],
+      "cargo_slots": 4,
+      "speed_min_ms": 3.9,
+      "speed_max_ms": 7.0,
+      "speed_notes": "Full sails: 3.9-7.0 m/s; Half sails: 2.8-4.8 m/s; Paddling: variable. ~20m turning radius. Vulnerable to capsizing in rough seas (20 dmg/s when flipped)",
+      "hp": 500,
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/63/Karve.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Longship",
+      "name_ko": "롱쉽",
+      "name_ko_alt": "장선",
+      "materials": [
+        {
+          "name": "Fine Wood",
+          "quantity": 40
+        },
+        {
+          "name": "Ancient Bark",
+          "quantity": 40
+        },
+        {
+          "name": "Iron Nails",
+          "quantity": 100
+        },
+        {
+          "name": "Deer Hide",
+          "quantity": 10
+        }
+      ],
+      "cargo_slots": 18,
+      "speed_min_ms": 5.04,
+      "speed_max_ms": 9.5,
+      "speed_notes": "Full sails provide maximum speed (5.04-9.5 m/s); supports large cargo transport; ~60m turning radius",
+      "hp": 1000,
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/ed/Longship.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Drakkar",
+      "name_ko": "드래카르",
+      "name_ko_alt": "드래곤 배",
+      "materials": [
+        {
+          "name": "Iron Nails",
+          "quantity": 100
+        },
+        {
+          "name": "Ceramic Plates",
+          "quantity": 30
+        },
+        {
+          "name": "Wood",
+          "quantity": 50
+        },
+        {
+          "name": "Yggdrasil Wood",
+          "quantity": 25
+        }
+      ],
+      "cargo_slots": 32,
+      "speed_min_ms": "Not specified",
+      "speed_max_ms": "Not specified",
+      "speed_notes": "Endgame vessel; best boat as of Ashlands update with triple durability of Longship; immune to Ashlands lava damage",
+      "hp": 3000,
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/7a/Drakkar.png",
+      "image_local_path": null
+    }
+  ],
+  "magic": [
+    {
+      "name_en": "Staff of Embers",
+      "name_ko": "불의 지팡이",
+      "name_ko_alt": "불꽃의 지팡이",
+      "type": "staff",
+      "magic_type": "Elemental",
+      "spell_effect": "Launches explosive fireballs in an arc; deals blunt damage on direct hit, area of effect fire damage on impact",
+      "eitr_cost": "Moderate per cast",
+      "casting_speed": "Moderately slow projectile",
+      "damage_type": "Fire",
+      "notes": "Described as one of the most powerful weapons in the game; primary attack focuses on area damage",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/33/Staff_of_Embers.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Staff of Frost",
+      "name_ko": "얼음의 지팡이",
+      "name_ko_alt": "서리의 지팡이",
+      "type": "staff",
+      "magic_type": "Elemental",
+      "spell_effect": "Launches continuous barrage of ice projectiles as long as player has Eitr; slows enemies",
+      "eitr_cost": "Continuous drain while casting",
+      "casting_speed": "High rate of fire",
+      "damage_type": "Frost/Slowing",
+      "notes": "Machine gun-like rapid fire; lower individual damage but high application rate; effective for crowd control",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/c3/Staff_of_Frost.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Staff of Protection",
+      "name_ko": "보호의 지팡이",
+      "name_ko_alt": "방어 지팡이",
+      "type": "staff",
+      "magic_type": "Blood Magic",
+      "spell_effect": "Creates protective shield around caster and nearby allies; absorbs damage",
+      "eitr_cost": "Moderate per cast",
+      "casting_speed": "Instant activation",
+      "damage_type": "Support/Defense",
+      "notes": "First true support staff; defensive action for group protection",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/20/Staff_of_Protection.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Staff of the Wild",
+      "name_ko": "야생의 지팡이",
+      "name_ko_alt": "자연의 지팡이",
+      "type": "staff",
+      "magic_type": "Elemental",
+      "spell_effect": "Summons thorns/roots to attack enemies; similar to The Elder boss ability",
+      "eitr_cost": "Moderate per cast",
+      "casting_speed": "Summoning speed varies",
+      "damage_type": "Nature",
+      "notes": "Ashlands-tier staff; summoner-type spell",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/b/b6/Summoned_Root.png",
+      "image_local_path": null
+    },
+    {
+      "name_en": "Dead Raiser",
+      "name_ko": "죽음의 부활자",
+      "name_ko_alt": "망자소환 지팡이",
+      "type": "staff",
+      "magic_type": "Blood Magic",
+      "spell_effect": "Summons up to 2 Skelett (tamed skeletons) to fight alongside caster",
+      "eitr_cost": "100 Eitr per cast",
+      "health_cost": "Up to 40% current health per cast",
+      "casting_speed": "Instant summoning",
+      "damage_type": "Summoning/Minion",
+      "notes": "Core summoner staff; uses blood magic (hybrid eitr + health cost); summoned skeletons last until they die or despawn",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/6f/Skelett_0S.png",
+      "image_local_path": null
+    }
+  ],
+  "eitr_system": {
+    "overview": "Eitr is an ancient essence resource introduced in the Mistlands update; required to cast magic spells",
+    "eitr_sources": [
+      {
+        "source": "Magecap Mushroom",
+        "location": "Mistlands",
+        "eitr_value": "Starter resource; provides basic eitr",
+        "notes": "Initial way to gain Eitr bar"
+      },
+      {
+        "source": "Refined Eitr Foods",
+        "location": "Mistlands and beyond",
+        "eitr_value": "Variable by food tier",
+        "notes": "Made at Eitr Refinery; primary ongoing source"
+      },
+      {
+        "source": "Marinated Greens",
+        "location": "Mistlands (craftable)",
+        "eitr_value": "95 Eitr",
+        "notes": "Highest single-food eitr bonus"
+      }
+    ],
+    "regen_mechanics": "Eitr regenerates passively when not casting; regeneration rate scales with food eaten and crafting station upgrades",
+    "casting_system": "Magic builds balance resource management like stamina; weaving casts with dodges and positioning is essential",
+    "crafting_stations": [
+      {
+        "name": "Black Forge",
+        "unlock": "Mistlands progression",
+        "use": "Craft tools and weapons from Valheim Black Marble"
+      },
+      {
+        "name": "Galdr Table",
+        "unlock": "Mistlands progression",
+        "use": "Craft magical items and spells"
+      },
+      {
+        "name": "Eitr Refinery",
+        "unlock": "Mistlands progression",
+        "use": "Create Refined Eitr foods and potions"
+      }
+    ],
+    "synergies": "Magic builds benefit from eitr-boosting foods (Marinated Greens, Misthare Supreme, Yggdrasil Porridge) combined with survival foods; endgame mage combo: Misthare Supreme + Fish n' Bread + Seeker Aspic"
+  },
+  "data_gaps_and_notes": {
+    "korean_names": "Korean translations provided for main items but may need verification against official Korean localization",
+    "image_sources": "image_source_url points to the original wiki image file (static.wikia.nocookie.net). Files are NOT downloaded — reference only. 47/53 resolved; 6 missing (see docs/DATA-SCHEMA.md). Replace with self-made icons before public launch.",
+    "missing_food_items": "Dataset contains 19 representative food items; complete list includes 75+ items. Key items by tier are covered but not exhaustive",
+    "missing_mead_recipes": "Common meads documented; minor meads and specialty brews (Beast Whisperer, Lightfooted, Anti-Sting) noted in search results but full recipes not extracted",
+    "deep_north_content": "Limited documentation available; official release date September 9, 2026. Content subject to change before release",
+    "magic_incomplete": "Documentation shows 5 primary staffs; search results mention at least 8 total magic weapons as of Ashlands update. Additional staffs and spells may exist but were not fully extracted from available sources",
+    "ashlands_deep_north": "Both represent current endgame content (Ashlands) and upcoming content (Deep North); data reflects knowledge cutoff of July 2026"
+  }
+}

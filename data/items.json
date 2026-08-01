@@ -1,0 +1,2739 @@
+{
+  "meta": {
+    "collected_at": "2026-07-30",
+    "sources": [
+      "https://valheim.fandom.com/wiki/Weapons",
+      "https://valheim.fandom.com/wiki/Armor",
+      "https://valheim.fandom.com/wiki/Resources",
+      "https://valheim.fandom.com/wiki/Crafting",
+      "https://xgamingserver.com/tools/valheim/weapons",
+      "https://gamertweak.com/valheim-crafting-recipes-list/",
+      "https://gamerant.com/valheim-armor-sets/",
+      "https://game8.co/games/Valheim/archives/320145",
+      "https://game8.co/games/Valheim/archives/320150",
+      "https://commands.gg/valheim/items",
+      "https://www.valheim.tools/",
+      "https://screenrant.com/transport-restricted-items-portals-valheim-unrestricted-mod/",
+      "https://www.gosunoob.com/valheim/ore-metal-teleportation-quick-transfer/"
+    ],
+    "notes": "Images are reference-only, sourced from community wiki uploads and game assets — must be redrawn/replaced before public commercial use per project legal guidelines. Portal restrictions based on official game mechanics as of 2026."
+  },
+  "items": [
+    {
+      "name_en": "Bronze Sword",
+      "name_ko": "청동검",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "slash": 20,
+          "total": 20
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Early game sword crafted from bronze at the forge",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/b/b8/Bronze_sword.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 2
+          },
+          {
+            "name_en": "Copper",
+            "qty": 15
+          },
+          {
+            "name_en": "Tin",
+            "qty": 4
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Iron Sword",
+      "name_ko": "철검",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "slash": 55,
+          "total": 55
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Mid-tier sword crafted from iron",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/3c/Iron_sword.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 2
+          },
+          {
+            "name_en": "Iron",
+            "qty": 20
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 3
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Blackmetal Sword",
+      "name_ko": "흑철검",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "slash": 95,
+          "total": 95
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Late game sword with high slash damage",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/82/Black_metal_sword.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 4,
+        "materials": [
+          {
+            "name_en": "Fine Wood",
+            "qty": 2
+          },
+          {
+            "name_en": "Black Metal",
+            "qty": 20
+          },
+          {
+            "name_en": "Linen Thread",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Silver Sword",
+      "name_ko": "은검",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "slash": 75,
+          "spirit": 30,
+          "total": 105
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Mountain-tier sword with silver and spirit damage",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/ec/Silver_sword.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 2
+          },
+          {
+            "name_en": "Silver",
+            "qty": 40
+          },
+          {
+            "name_en": "Iron",
+            "qty": 5
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 3
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Stone Axe",
+      "name_ko": "돌도끼",
+      "category": "tool",
+      "stats": {
+        "damage_types": {
+          "slash": null
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Basic tool for chopping Beech, Fir, and Pine trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/ca/Stone_axe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 5
+          },
+          {
+            "name_en": "Stone",
+            "qty": 4
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Flint Axe",
+      "name_ko": "부싯돌도끼",
+      "category": "tool",
+      "stats": {
+        "damage_types": {
+          "slash": null
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Early game axe with improved durability",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/0/0b/Flint_axe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 4
+          },
+          {
+            "name_en": "Flint",
+            "qty": 6
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Bronze Axe",
+      "name_ko": "청동도끼",
+      "category": "tool",
+      "stats": {
+        "damage_types": {
+          "slash": null
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Axe capable of felling Ancient, Birch, and Oak trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/ed/Bronze_axe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 4
+          },
+          {
+            "name_en": "Bronze",
+            "qty": 8
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Iron Axe",
+      "name_ko": "철도끼",
+      "category": "tool",
+      "stats": {
+        "damage_types": {
+          "pierce": 33
+        },
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Mid-tier axe with increased durability",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/b/b3/Iron_axe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 4
+          },
+          {
+            "name_en": "Iron",
+            "qty": 15
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Stone Pickaxe",
+      "name_ko": "돌곡괭이",
+      "category": "tool",
+      "stats": {
+        "harvest": "Stone, Copper, Tin",
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Basic pickaxe for mining stone and basic ores",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 3
+          },
+          {
+            "name_en": "Stone",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Antler Pickaxe",
+      "name_ko": "뿔곡괭이",
+      "category": "tool",
+      "stats": {
+        "harvest": "Stone, Copper, Tin, Muddy Scrap Pile, Abyssal Barnacle",
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Early game pickaxe from Eikthyr antlers",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/3a/Antler_pickaxe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 10
+          },
+          {
+            "name_en": "Antler",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Bronze Pickaxe",
+      "name_ko": "청동곡괭이",
+      "category": "tool",
+      "stats": {
+        "harvest": "Stone, Copper, Tin, Muddy Scrap Pile",
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Bronze pickaxe with improved durability",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/99/Bronze_pickaxe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 3
+          },
+          {
+            "name_en": "Bronze",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Iron Pickaxe",
+      "name_ko": "철곡괭이",
+      "category": "tool",
+      "stats": {
+        "harvest": "Stone, Copper, Tin, Obsidian, Silver, Glowing Metal",
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Iron pickaxe capable of mining silver and obsidian",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/39/Iron_pickaxe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Core Wood",
+            "qty": 3
+          },
+          {
+            "name_en": "Iron",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Hammer",
+      "name_ko": "망치",
+      "category": "tool",
+      "stats": {
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Essential tool for placing and repairing structures",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/81/Hammer.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Inventory",
+        "station_level": 0,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 3
+          },
+          {
+            "name_en": "Stone",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Hoe",
+      "name_ko": "괭이",
+      "category": "tool",
+      "stats": {
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Tool for tilling and flattening ground",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/87/Hoe.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 5
+          },
+          {
+            "name_en": "Stone",
+            "qty": 2
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Cultivator",
+      "name_ko": "재배기",
+      "category": "tool",
+      "stats": {
+        "weight": null,
+        "durability": null,
+        "stack_size": 1
+      },
+      "description": "Tool for planting crops and seeds",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/e6/Cultivator.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Core Wood",
+            "qty": 5
+          },
+          {
+            "name_en": "Bronze",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Leather Armor",
+      "name_ko": "가죽갑옷",
+      "category": "armor",
+      "stats": {
+        "armor": 2,
+        "durability": 400,
+        "weight": null,
+        "set_bonus": null
+      },
+      "description": "Basic leather armor from Eikthyr trophy",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/3c/Leather_Armor.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Deer Hide",
+            "qty": 6
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Bronze Plate Cuirass",
+      "name_ko": "청동판 가슴갑옷",
+      "category": "armor",
+      "stats": {
+        "armor": 8,
+        "durability": 1000,
+        "weight": null,
+        "movement_penalty": "-5%",
+        "set_bonus": null
+      },
+      "description": "Bronze armor chest piece with movement penalty",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/42/Bronze_plate_leggings.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Bronze",
+            "qty": 20
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Bronze Plate Leggings",
+      "name_ko": "청동판 다리갑옷",
+      "category": "armor",
+      "stats": {
+        "armor": 8,
+        "durability": 1000,
+        "weight": null,
+        "movement_penalty": "-5%",
+        "set_bonus": null
+      },
+      "description": "Bronze armor leg piece with movement penalty",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/42/Bronze_plate_leggings.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Bronze",
+            "qty": 20
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Iron Scale Mail",
+      "name_ko": "철비늘 갑옷",
+      "category": "armor",
+      "stats": {
+        "armor": 14,
+        "durability": 1200,
+        "weight": null,
+        "movement_penalty": "-5%",
+        "set_bonus": null
+      },
+      "description": "Iron armor chest piece",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/2e/Iron_greaves.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Iron",
+            "qty": 25
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Iron Greaves",
+      "name_ko": "철 정강이 갑옷",
+      "category": "armor",
+      "stats": {
+        "armor": 14,
+        "durability": 1200,
+        "weight": null,
+        "movement_penalty": "-5%",
+        "set_bonus": null
+      },
+      "description": "Iron armor leg piece",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/2e/Iron_greaves.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Iron",
+            "qty": 25
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Wolf Armor Chest",
+      "name_ko": "늑대 갑옷 가슴",
+      "category": "armor",
+      "stats": {
+        "armor": 20,
+        "durability": 1000,
+        "weight": null,
+        "cold_resistance": true,
+        "set_bonus": "Prevents cold debuff when wearing full set"
+      },
+      "description": "Mountain tier armor with cold resistance",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/72/Wolf_fur_cape.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Silver",
+            "qty": 10
+          },
+          {
+            "name_en": "Wolf Pelt",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Wolf Armor Legs",
+      "name_ko": "늑대 갑옷 다리",
+      "category": "armor",
+      "stats": {
+        "armor": 20,
+        "durability": 1000,
+        "weight": null,
+        "cold_resistance": true,
+        "set_bonus": "Prevents cold debuff when wearing full set"
+      },
+      "description": "Mountain tier armor leg piece",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/72/Wolf_fur_cape.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Silver",
+            "qty": 10
+          },
+          {
+            "name_en": "Wolf Pelt",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Troll Leather Tunic",
+      "name_ko": "트롤 가죽 튜닉",
+      "category": "armor",
+      "stats": {
+        "armor": 6,
+        "durability": 500,
+        "weight": null,
+        "set_bonus": "+25% Sneak Bonus when full set worn"
+      },
+      "description": "Early game armor with stealth bonus",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/90/Troll_hide_cape.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Troll Hide",
+            "qty": 8
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Troll Leather Pants",
+      "name_ko": "트롤 가죽 바지",
+      "category": "armor",
+      "stats": {
+        "armor": 6,
+        "durability": 500,
+        "weight": null,
+        "set_bonus": "+25% Sneak Bonus when full set worn"
+      },
+      "description": "Early game armor leg piece",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/90/Troll_hide_cape.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Troll Hide",
+            "qty": 8
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Root Armor Helmet",
+      "name_ko": "뿌리 갑옷 투구",
+      "category": "armor",
+      "stats": {
+        "armor": 8,
+        "durability": 800,
+        "weight": null,
+        "poison_resistance": true,
+        "set_bonus": "+15 Bow ability when full set worn"
+      },
+      "description": "Swamp armor with poison resistance and bow bonus",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Root",
+            "qty": 10
+          },
+          {
+            "name_en": "Ancient Bark",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Copper",
+      "name_ko": "구리",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Refined copper metal used for crafting bronze",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/12/Copper.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Smelter",
+        "station_level": 0,
+        "materials": [
+          {
+            "name_en": "Copper Ore",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Copper Ore",
+      "name_ko": "구리 광석",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Raw copper ore found in Black Forest deposits",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/c3/Copper_ore.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Tin",
+      "name_ko": "주석",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Refined tin metal used for crafting bronze",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/80/Tin.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Smelter",
+        "station_level": 0,
+        "materials": [
+          {
+            "name_en": "Tin Ore",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Tin Ore",
+      "name_ko": "주석 광석",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Raw tin ore found in Black Forest deposits",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/e0/Tin_ore.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Bronze",
+      "name_ko": "청동",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Bronze alloy crafted from copper and tin",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/f/f2/Bronze.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Copper",
+            "qty": 2
+          },
+          {
+            "name_en": "Tin",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Iron",
+      "name_ko": "철",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Refined iron metal used for advanced crafting",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/45/Iron.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Smelter",
+        "station_level": 0,
+        "materials": [
+          {
+            "name_en": "Scrap Iron",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Scrap Iron",
+      "name_ko": "철 스크랩",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Raw iron scraps found in swamp crypts",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/d/d3/Scrap_iron.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Silver",
+      "name_ko": "은",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Refined silver used for mountain tier equipment",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/0/0b/Silver.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Smelter",
+        "station_level": 0,
+        "materials": [
+          {
+            "name_en": "Silver Ore",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Silver Ore",
+      "name_ko": "은 광석",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Raw silver ore found in mountain deposits",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/34/Silver_ore.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Black Metal",
+      "name_ko": "흑철",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Dark metal from Fuling drops in plains biome",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/16/Black_metal.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Black Metal Scrap",
+      "name_ko": "흑철 스크랩",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Scrap black metal found in plains",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/6/6f/Black_metal_scrap.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Flametal",
+      "name_ko": "화염금속",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Refined flametal from ashlands deposits",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/d/de/Flametal.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Smelter",
+        "station_level": 0,
+        "materials": [
+          {
+            "name_en": "Flametal Ore",
+            "qty": 1
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Flametal Ore",
+      "name_ko": "화염금속 광석",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Raw flametal ore from ashlands biome",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/ed/Flametal_ore.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Wood",
+      "name_ko": "목재",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Common wood from felled trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/d/df/Wood.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Fine Wood",
+      "name_ko": "고급목재",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "High quality wood from birch and oak trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/9a/Fine_wood.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Core Wood",
+      "name_ko": "심목재",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Dense wood from pine and ancient trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/53/Corewood.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Stone",
+      "name_ko": "돌",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Common stone used for building and tools",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/d/d4/Stone.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Flint",
+      "name_ko": "부싯돌",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Sharp mineral used for early tools and weapons",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/2e/Flint.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Deer Hide",
+      "name_ko": "사슴 가죽",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Hide from slain deer",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/17/Deer_hide.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Leather Scraps",
+      "name_ko": "가죽 조각",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Scraps of leather material",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/ab/Leather_scraps.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Troll Hide",
+      "name_ko": "트롤 가죽",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Hide from slain trolls",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/f/f2/Troll_hide.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Wolf Pelt",
+      "name_ko": "늑대 가죽",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Pelt from slain wolves",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/e/ee/Wolf_pelt.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Ancient Bark",
+      "name_ko": "고대 나무껍질",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Bark from ancient trees in swamps",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/18/Ancient_bark.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Coal",
+      "name_ko": "석탄",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Fuel for smelter and charcoal kiln",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/a7/Coal.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Surtling Core",
+      "name_ko": "서틀링 코어",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Core from slain Surtlings, used for crafting stations",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/3a/Surtling_core.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Dragon Egg",
+      "name_ko": "용의 알",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": true
+      },
+      "description": "Egg from the dragon boss",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/2b/Dragon_egg.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Wood Shield",
+      "name_ko": "나무 방패",
+      "category": "shield",
+      "stats": {
+        "block_power": 20,
+        "parry_force": 20,
+        "parry_bonus": "1.5x",
+        "weight": null,
+        "stack_size": 1
+      },
+      "description": "Basic wooden shield for early defense",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/70/Wood_shield.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 10
+          },
+          {
+            "name_en": "Resin",
+            "qty": 4
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 4
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Bronze Buckler",
+      "name_ko": "청동 버클러",
+      "category": "shield",
+      "stats": {
+        "block_power": 30,
+        "parry_force": 25,
+        "parry_bonus": "1.5x",
+        "weight": null,
+        "stack_size": 1
+      },
+      "description": "Bronze round shield",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/8b/Bronze_buckler.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 4
+          },
+          {
+            "name_en": "Bronze",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Banded Shield",
+      "name_ko": "띠 방패",
+      "category": "shield",
+      "stats": {
+        "block_power": 60,
+        "parry_force": 40,
+        "parry_bonus": "1.5x",
+        "weight": null,
+        "stack_size": 1
+      },
+      "description": "Iron banded shield",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/d/d8/Banded_shield.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 2,
+        "materials": [
+          {
+            "name_en": "Fine Wood",
+            "qty": 10
+          },
+          {
+            "name_en": "Iron",
+            "qty": 8
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Silver Shield",
+      "name_ko": "은 방패",
+      "category": "shield",
+      "stats": {
+        "block_power": 75,
+        "parry_force": 40,
+        "parry_bonus": "1.5x",
+        "weight": null,
+        "stack_size": 1
+      },
+      "description": "Mountain tier silver shield",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/82/Silver_shield.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Fine Wood",
+            "qty": 10
+          },
+          {
+            "name_en": "Silver",
+            "qty": 8
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Wood Tower Shield",
+      "name_ko": "나무 탑 방패",
+      "category": "shield",
+      "stats": {
+        "block_power": 36,
+        "parry_force": 30,
+        "parry_bonus": "1.5x",
+        "weight": null,
+        "stack_size": 1
+      },
+      "description": "Large wooden tower shield",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/3/3b/Wood_tower_shield.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 10
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 4
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Black Metal Tower Shield",
+      "name_ko": "흑철 탑 방패",
+      "category": "shield",
+      "stats": {
+        "block_power": 104,
+        "parry_force": 150,
+        "parry_bonus": "1.5x",
+        "weight": null,
+        "stack_size": 1
+      },
+      "description": "Powerful late-game tower shield",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/83/Black_metal_tower_shield.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 4,
+        "materials": [
+          {
+            "name_en": "Fine Wood",
+            "qty": 15
+          },
+          {
+            "name_en": "Black Metal",
+            "qty": 10
+          },
+          {
+            "name_en": "Chain",
+            "qty": 7
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Spear",
+      "name_ko": "창",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "pierce": 15,
+          "total": 15
+        },
+        "weight": null,
+        "throwable": true,
+        "stack_size": 1
+      },
+      "description": "Basic spear with pierce damage and throw capability",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 4
+          },
+          {
+            "name_en": "Flint",
+            "qty": 6
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Bronze Spear",
+      "name_ko": "청동창",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "pierce": 30,
+          "total": 30
+        },
+        "weight": null,
+        "throwable": true,
+        "stack_size": 1
+      },
+      "description": "Bronze spear with improved pierce damage",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/41/Bronze_spear.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 1,
+        "materials": [
+          {
+            "name_en": "Wood",
+            "qty": 4
+          },
+          {
+            "name_en": "Bronze",
+            "qty": 8
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Huntsman Bow",
+      "name_ko": "사냥꾼 활",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "pierce": 42,
+          "total": 42
+        },
+        "weight": null,
+        "weapon_type": "bow",
+        "stack_size": 1
+      },
+      "description": "Iron-tier ranged bow",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/53/Huntsman_bow.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Deer Hide",
+            "qty": 10
+          },
+          {
+            "name_en": "Feathers",
+            "qty": 2
+          },
+          {
+            "name_en": "Iron",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Draugr Fang",
+      "name_ko": "드라우그 송곳니",
+      "category": "weapon",
+      "stats": {
+        "damage_types": {
+          "pierce": 47,
+          "poison": 5,
+          "total": 52
+        },
+        "weight": null,
+        "weapon_type": "bow",
+        "stack_size": 1
+      },
+      "description": "Poison-infused mountain bow",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/78/Draugr_Fang.png",
+      "image_local_path": null,
+      "crafting": {
+        "station": "Workbench",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Ancient Bark",
+            "qty": 10
+          },
+          {
+            "name_en": "Deer Hide",
+            "qty": 2
+          },
+          {
+            "name_en": "Guck",
+            "qty": 10
+          },
+          {
+            "name_en": "Silver",
+            "qty": 20
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Padded Armor Helmet",
+      "name_ko": "패딩 갑옷 투구",
+      "category": "armor",
+      "stats": {
+        "armor": 26,
+        "durability": 1000,
+        "weight": null,
+        "set_bonus": null
+      },
+      "description": "High-tier padded armor helmet",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Iron",
+            "qty": 15
+          },
+          {
+            "name_en": "Leather Scraps",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Fenris Armor Hood",
+      "name_ko": "펜리르 갑옷 후드",
+      "category": "armor",
+      "stats": {
+        "armor": 10,
+        "durability": 1000,
+        "weight": null,
+        "movement_bonus": "+3%",
+        "set_bonus": "Full set grants +15 Fist ability"
+      },
+      "description": "Mountain armor with speed bonus",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 3,
+        "materials": [
+          {
+            "name_en": "Silver",
+            "qty": 20
+          },
+          {
+            "name_en": "Wolf Pelt",
+            "qty": 5
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Carapace Armor Helmet",
+      "name_ko": "갑각 갑옷 투구",
+      "category": "armor",
+      "stats": {
+        "armor": 32,
+        "durability": 1200,
+        "weight": null,
+        "set_bonus": "Most powerful armor set in game"
+      },
+      "description": "Ashlands-tier strongest armor",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": {
+        "station": "Forge",
+        "station_level": 5,
+        "materials": [
+          {
+            "name_en": "Carapace",
+            "qty": 20
+          },
+          {
+            "name_en": "Refined Eitr",
+            "qty": 10
+          }
+        ]
+      }
+    },
+    {
+      "name_en": "Rag Tunic",
+      "name_ko": "넝마 튜닉",
+      "category": "armor",
+      "stats": {
+        "armor": 1,
+        "durability": 200,
+        "weight": null,
+        "set_bonus": null
+      },
+      "description": "Starting armor piece",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/b/b9/Rag_pants.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Antler",
+      "name_ko": "뿔",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Antlers from Eikthyr the first boss",
+      "image_source_url": null,
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Resin",
+      "name_ko": "수지",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Resin gathered from trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/2/2c/Resin.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Feathers",
+      "name_ko": "깃털",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Feathers for crafting arrows and bows",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/a9/Feathers.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Guck",
+      "name_ko": "진흙",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Toxic substance from swamp creatures",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/59/Guck.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Root",
+      "name_ko": "뿌리",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Roots from swamp trees",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/8/80/Root.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Linen Thread",
+      "name_ko": "린넨 실",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Thread crafted from flax",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/1e/Linen_thread.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Refined Eitr",
+      "name_ko": "정제된 에이트르",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Refined magical substance from ashlands",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/cf/Refined_eitr.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Carapace",
+      "name_ko": "갑각",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Hard shell material from ashlands creatures",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/45/Carapace.png",
+      "image_local_path": null,
+      "crafting": null
+    },
+    {
+      "name_en": "Chain",
+      "name_ko": "쇠사슬",
+      "category": "resource",
+      "stats": {
+        "stack_size": 999,
+        "weight": null,
+        "portal_restricted": false
+      },
+      "description": "Metal chain for construction",
+      "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/ae/Chain.png",
+      "image_local_path": null,
+      "crafting": null
+    }
+  ],
+  "recipes": [
+    {
+      "item_name_en": "Workbench",
+      "item_category": "station",
+      "station": "Inventory",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item_name_en": "Forge",
+      "item_category": "station",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 4
+        },
+        {
+          "name_en": "Coal",
+          "qty": 4
+        },
+        {
+          "name_en": "Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Copper",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "item_name_en": "Smelter",
+      "item_category": "station",
+      "station": "Workbench",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 20
+        },
+        {
+          "name_en": "Surtling Core",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Charcoal Kiln",
+      "item_category": "station",
+      "station": "Workbench",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 20
+        },
+        {
+          "name_en": "Surtling Core",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Stone Cutter",
+      "item_category": "station",
+      "station": "Workbench",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Iron",
+          "qty": 2
+        },
+        {
+          "name_en": "Stone",
+          "qty": 4
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Sword",
+      "item_category": "weapon",
+      "station": "Forge",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 2
+        },
+        {
+          "name_en": "Copper",
+          "qty": 15
+        },
+        {
+          "name_en": "Tin",
+          "qty": 4
+        }
+      ]
+    },
+    {
+      "item_name_en": "Iron Sword",
+      "item_category": "weapon",
+      "station": "Forge",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 2
+        },
+        {
+          "name_en": "Iron",
+          "qty": 20
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 3
+        }
+      ]
+    },
+    {
+      "item_name_en": "Silver Sword",
+      "item_category": "weapon",
+      "station": "Forge",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 2
+        },
+        {
+          "name_en": "Silver",
+          "qty": 40
+        },
+        {
+          "name_en": "Iron",
+          "qty": 5
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 3
+        }
+      ]
+    },
+    {
+      "item_name_en": "Blackmetal Sword",
+      "item_category": "weapon",
+      "station": "Forge",
+      "station_level": 4,
+      "materials": [
+        {
+          "name_en": "Fine Wood",
+          "qty": 2
+        },
+        {
+          "name_en": "Black Metal",
+          "qty": 20
+        },
+        {
+          "name_en": "Linen Thread",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Stone Axe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 5
+        },
+        {
+          "name_en": "Stone",
+          "qty": 4
+        }
+      ]
+    },
+    {
+      "item_name_en": "Flint Axe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        },
+        {
+          "name_en": "Flint",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Axe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        },
+        {
+          "name_en": "Bronze",
+          "qty": 8
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "item_name_en": "Iron Axe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        },
+        {
+          "name_en": "Iron",
+          "qty": 15
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "item_name_en": "Hammer",
+      "item_category": "tool",
+      "station": "Inventory",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 3
+        },
+        {
+          "name_en": "Stone",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "item_name_en": "Hoe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 5
+        },
+        {
+          "name_en": "Stone",
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "item_name_en": "Cultivator",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Core Wood",
+          "qty": 5
+        },
+        {
+          "name_en": "Bronze",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Stone Pickaxe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 3
+        },
+        {
+          "name_en": "Stone",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item_name_en": "Antler Pickaxe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Antler",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Pickaxe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 3
+        },
+        {
+          "name_en": "Bronze",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item_name_en": "Iron Pickaxe",
+      "item_category": "tool",
+      "station": "Workbench",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Core Wood",
+          "qty": 3
+        },
+        {
+          "name_en": "Iron",
+          "qty": 20
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze",
+      "item_category": "resource",
+      "station": "Forge",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Copper",
+          "qty": 2
+        },
+        {
+          "name_en": "Tin",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Iron",
+      "item_category": "resource",
+      "station": "Smelter",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Scrap Iron",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Silver",
+      "item_category": "resource",
+      "station": "Smelter",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Silver Ore",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Copper",
+      "item_category": "resource",
+      "station": "Smelter",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Copper Ore",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Tin",
+      "item_category": "resource",
+      "station": "Smelter",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Tin Ore",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Flametal",
+      "item_category": "resource",
+      "station": "Smelter",
+      "station_level": 0,
+      "materials": [
+        {
+          "name_en": "Flametal Ore",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "item_name_en": "Leather Armor",
+      "item_category": "armor",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Deer Hide",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Plate Cuirass",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Bronze",
+          "qty": 20
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Plate Leggings",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Bronze",
+          "qty": 20
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Iron Scale Mail",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Iron",
+          "qty": 25
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Iron Greaves",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Iron",
+          "qty": 25
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Wolf Armor Chest",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Silver",
+          "qty": 10
+        },
+        {
+          "name_en": "Wolf Pelt",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item_name_en": "Wolf Armor Legs",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Silver",
+          "qty": 10
+        },
+        {
+          "name_en": "Wolf Pelt",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item_name_en": "Troll Leather Tunic",
+      "item_category": "armor",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Troll Hide",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "item_name_en": "Troll Leather Pants",
+      "item_category": "armor",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Troll Hide",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "item_name_en": "Root Armor Helmet",
+      "item_category": "armor",
+      "station": "Workbench",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Root",
+          "qty": 10
+        },
+        {
+          "name_en": "Ancient Bark",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Wood Shield",
+      "item_category": "shield",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Resin",
+          "qty": 4
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 4
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Buckler",
+      "item_category": "shield",
+      "station": "Forge",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        },
+        {
+          "name_en": "Bronze",
+          "qty": 10
+        }
+      ]
+    },
+    {
+      "item_name_en": "Banded Shield",
+      "item_category": "shield",
+      "station": "Forge",
+      "station_level": 2,
+      "materials": [
+        {
+          "name_en": "Fine Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Iron",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "item_name_en": "Silver Shield",
+      "item_category": "shield",
+      "station": "Forge",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Fine Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Silver",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "item_name_en": "Wood Tower Shield",
+      "item_category": "shield",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 10
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 4
+        }
+      ]
+    },
+    {
+      "item_name_en": "Black Metal Tower Shield",
+      "item_category": "shield",
+      "station": "Forge",
+      "station_level": 4,
+      "materials": [
+        {
+          "name_en": "Fine Wood",
+          "qty": 15
+        },
+        {
+          "name_en": "Black Metal",
+          "qty": 10
+        },
+        {
+          "name_en": "Chain",
+          "qty": 7
+        }
+      ]
+    },
+    {
+      "item_name_en": "Spear",
+      "item_category": "weapon",
+      "station": "Workbench",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        },
+        {
+          "name_en": "Flint",
+          "qty": 6
+        }
+      ]
+    },
+    {
+      "item_name_en": "Bronze Spear",
+      "item_category": "weapon",
+      "station": "Forge",
+      "station_level": 1,
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        },
+        {
+          "name_en": "Bronze",
+          "qty": 8
+        }
+      ]
+    },
+    {
+      "item_name_en": "Huntsman Bow",
+      "item_category": "weapon",
+      "station": "Workbench",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Deer Hide",
+          "qty": 10
+        },
+        {
+          "name_en": "Feathers",
+          "qty": 2
+        },
+        {
+          "name_en": "Iron",
+          "qty": 20
+        }
+      ]
+    },
+    {
+      "item_name_en": "Draugr Fang",
+      "item_category": "weapon",
+      "station": "Workbench",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Ancient Bark",
+          "qty": 10
+        },
+        {
+          "name_en": "Deer Hide",
+          "qty": 2
+        },
+        {
+          "name_en": "Guck",
+          "qty": 10
+        },
+        {
+          "name_en": "Silver",
+          "qty": 20
+        }
+      ]
+    },
+    {
+      "item_name_en": "Padded Armor Helmet",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Iron",
+          "qty": 15
+        },
+        {
+          "name_en": "Leather Scraps",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Fenris Armor Hood",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 3,
+      "materials": [
+        {
+          "name_en": "Silver",
+          "qty": 20
+        },
+        {
+          "name_en": "Wolf Pelt",
+          "qty": 5
+        }
+      ]
+    },
+    {
+      "item_name_en": "Carapace Armor Helmet",
+      "item_category": "armor",
+      "station": "Forge",
+      "station_level": 5,
+      "materials": [
+        {
+          "name_en": "Carapace",
+          "qty": 20
+        },
+        {
+          "name_en": "Refined Eitr",
+          "qty": 10
+        }
+      ]
+    }
+  ],
+  "building_pieces": [
+    {
+      "name_en": "Wood Wall",
+      "name_ko": "나무 벽",
+      "category": "wall",
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 2
+        }
+      ],
+      "hp": 180,
+      "durability_notes": "Reduced to 50% if exposed to rain without roof",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Wood Floor",
+      "name_ko": "나무 바닥",
+      "category": "floor",
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 2
+        }
+      ],
+      "hp": 100,
+      "durability_notes": "Subject to decay if exposed without roof",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Wood Roof",
+      "name_ko": "나무 지붕",
+      "category": "roof",
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 2
+        }
+      ],
+      "hp": 100,
+      "durability_notes": "Provides weather protection",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Wood Door",
+      "name_ko": "나무 문",
+      "category": "door",
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 4
+        }
+      ],
+      "hp": 180,
+      "durability_notes": "Prevents mobs entering structures",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Wood Support Beam",
+      "name_ko": "나무 지지대",
+      "category": "support",
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 1
+        }
+      ],
+      "hp": null,
+      "durability_notes": "Provides structural support",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Stone Wall",
+      "name_ko": "돌 벽",
+      "category": "wall",
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 6
+        }
+      ],
+      "hp": 1500,
+      "durability_notes": "Much more durable than wood (4x)",
+      "requirement": "Hammer + Stonecutter nearby",
+      "crafting_station": "Stonecutter"
+    },
+    {
+      "name_en": "Stone Floor",
+      "name_ko": "돌 바닥",
+      "category": "floor",
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 6
+        }
+      ],
+      "hp": 1500,
+      "durability_notes": "Durable but can only be placed on ground level",
+      "requirement": "Hammer + Stonecutter nearby",
+      "crafting_station": "Stonecutter"
+    },
+    {
+      "name_en": "Stone Arch",
+      "name_ko": "돌 아치",
+      "category": "arch",
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 6
+        }
+      ],
+      "hp": 1500,
+      "durability_notes": "Allows vertical expansion of stone structures",
+      "requirement": "Hammer + Stonecutter nearby",
+      "crafting_station": "Stonecutter"
+    },
+    {
+      "name_en": "Hearth",
+      "name_ko": "난로",
+      "category": "utility",
+      "materials": [
+        {
+          "name_en": "Stone",
+          "qty": 6
+        }
+      ],
+      "hp": 1500,
+      "durability_notes": "Provides comfort and heating",
+      "requirement": "Hammer + Stonecutter nearby",
+      "crafting_station": "Stonecutter"
+    },
+    {
+      "name_en": "Wood Pole",
+      "name_ko": "나무 기둥",
+      "category": "support",
+      "materials": [
+        {
+          "name_en": "Wood",
+          "qty": 1
+        }
+      ],
+      "hp": null,
+      "durability_notes": "Supports up to 18m height",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Core Wood Pole",
+      "name_ko": "심목재 기둥",
+      "category": "support",
+      "materials": [
+        {
+          "name_en": "Core Wood",
+          "qty": 1
+        }
+      ],
+      "hp": null,
+      "durability_notes": "Supports up to 24m height",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    },
+    {
+      "name_en": "Iron Pole",
+      "name_ko": "철 기둥",
+      "category": "support",
+      "materials": [
+        {
+          "name_en": "Iron",
+          "qty": 1
+        }
+      ],
+      "hp": null,
+      "durability_notes": "Supports up to 50m height",
+      "requirement": "Hammer",
+      "crafting_station": "Workbench"
+    }
+  ],
+  "portal_restricted_items": [
+    "Copper",
+    "Copper Ore",
+    "Tin",
+    "Tin Ore",
+    "Bronze",
+    "Iron",
+    "Scrap Iron",
+    "Silver",
+    "Silver Ore",
+    "Black Metal",
+    "Black Metal Scrap",
+    "Flametal",
+    "Flametal Ore",
+    "Dragon Egg"
+  ]
+}
