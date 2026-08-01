@@ -16,9 +16,14 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl space-y-2 px-4 py-8 text-xs leading-relaxed text-text-muted">
         <p>{t.footer.disclaimer1}</p>
         <p>{t.footer.disclaimer2}</p>
-        <Link href="/about/" className="inline-block pt-1 text-accent hover:text-accent-hover">
-          {t.footer.about}
-        </Link>
+        <div className="flex flex-wrap gap-x-4 pt-1">
+          <Link href="/about/" className="text-accent hover:text-accent-hover">
+            {t.footer.about}
+          </Link>
+          <Link href="/privacy/" className="text-accent hover:text-accent-hover">
+            {t.footer.privacy}
+          </Link>
+        </div>
       </div>
     </footer>
   );

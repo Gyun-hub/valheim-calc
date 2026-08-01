@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...mods.map((e) => `/db/mods/${e.slug}/`),
   ];
 
-  const paths = ["/", "/about/", ...LIST_PAGES, ...detailUrls];
+  const paths = ["/", "/about/", "/privacy/", ...LIST_PAGES, ...detailUrls];
 
   return paths.map((path) => ({
     url: new URL(path, siteUrl).toString(),

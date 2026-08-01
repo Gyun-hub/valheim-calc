@@ -22,6 +22,7 @@ export const dictionary = {
       disclaimer2:
         "Valheim은 Iron Gate AB의 상표입니다. 게임 내 수치는 참고용이며 패치에 따라 달라질 수 있습니다.",
       about: "사이트 소개 · 출처 표기",
+      privacy: "개인정보처리방침",
     },
     localeToggle: "EN",
   },
@@ -42,6 +43,7 @@ export const dictionary = {
       disclaimer2:
         "Valheim is a trademark of Iron Gate AB. In-game values are for reference and may change with game patches.",
       about: "About · Sources",
+      privacy: "Privacy Policy",
     },
     localeToggle: "한국어",
   },
