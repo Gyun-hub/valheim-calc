@@ -367,8 +367,8 @@
         "Raspberry",
         "Blueberries"
       ],
-      "tier": 1,
-      "biome": "Meadows",
+      "tier": 2,
+      "biome": "Black Forest",
       "image_source_url": null,
       "image_local_path": null
     },
@@ -383,8 +383,8 @@
       "ingredients": [
         "Fish"
       ],
-      "tier": 1,
-      "biome": "Meadows",
+      "tier": 2,
+      "biome": "Black Forest",
       "image_source_url": null,
       "image_local_path": null
     },
@@ -487,8 +487,8 @@
       "ingredients": [
         "Onion"
       ],
-      "tier": 5,
-      "biome": "Plains",
+      "tier": 4,
+      "biome": "Mountain",
       "image_source_url": null,
       "image_local_path": null
     },
@@ -538,8 +538,8 @@
         "Cooked Fish",
         "Barley Flour"
       ],
-      "tier": 6,
-      "biome": "Mistlands",
+      "tier": 5,
+      "biome": "Plains",
       "image_source_url": null,
       "image_local_path": null
     },
