@@ -197,6 +197,8 @@ export interface Boss extends NamedEntity {
   forsakenPower: string | null;
   /** 진행 순서 1~7 */
   order: number;
+  /** 배율. 1 미만이면 저항, 초과면 취약. 2026-08 추가 — 과거 데이터엔 없을 수 있음 */
+  resistances: Partial<Record<DamageType, number>>;
 }
 
 export interface TamingInfo {
@@ -375,6 +377,7 @@ export interface RawBoss {
   guaranteed_drops?: string[];
   forsaken_power?: string | null;
   order?: number | null;
+  resistances?: Record<string, number> | null;
   image_source_url?: string | null;
   image_local_path?: string | null;
 }

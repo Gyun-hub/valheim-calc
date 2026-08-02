@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 
 import { BossNav } from "@/components/creatures/BossNav";
 import { formatSummonItem, formatSummonLocation, forsakenPowerKo } from "@/components/creatures/bossText";
+import { ResistanceBadges } from "@/components/creatures/ResistanceBadges";
 import { Badge } from "@/components/ui/Badge";
 import { BiomeBadge } from "@/components/ui/BiomeBadge";
 import { Section } from "@/components/ui/Card";
@@ -64,6 +65,10 @@ export default async function BossDetailPage({ params }: { params: Promise<{ slu
             ["서식 바이옴", <BiomeBadge key="biome" biome={boss.biome} />],
           ])}
         />
+      </Section>
+
+      <Section title="저항">
+        <ResistanceBadges resistances={boss.resistances} />
       </Section>
 
       <Section title="소환법">

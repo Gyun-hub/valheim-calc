@@ -281,6 +281,7 @@ function normalizeBoss(raw: RawBoss): Boss {
     guaranteedDrops: parseGuaranteedDrops(raw.guaranteed_drops),
     forsakenPower: raw.forsaken_power ?? null,
     order: raw.order ?? 0,
+    resistances: (raw.resistances ?? {}) as Partial<Record<DamageType, number>>,
   };
 }
 

@@ -214,7 +214,11 @@
       ],
       "hp": 60,
       "damage": "20 Pierce + 60 Poison",
-      "resistances": {},
+      "resistances": {
+        "poison": 0.5,
+        "fire": 0,
+        "spirit": 0
+      },
       "behavior": "aggressive",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/aa/Leech_0star.png",
       "image_local_path": null
@@ -320,7 +324,9 @@
       ],
       "hp": 10,
       "damage": "90 Pierce",
-      "resistances": {},
+      "resistances": {
+        "spirit": 0
+      },
       "behavior": "aggressive",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/99/Deathsquito_Definitive.png",
       "image_local_path": null
@@ -333,7 +339,9 @@
       ],
       "hp": 200,
       "damage": "Varies",
-      "resistances": {},
+      "resistances": {
+        "spirit": 0
+      },
       "behavior": "aggressive",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/4/42/Fuling_0star.png",
       "image_local_path": null
@@ -1079,6 +1087,7 @@
       ],
       "forsaken_power": "Reduce stamina cost by 60%",
       "order": 1,
+      "resistances": {},
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/51/Eikthyr_Definitive.png",
       "image_local_path": null
     },
@@ -1097,6 +1106,13 @@
       ],
       "forsaken_power": "Increase tree chopping by 60%",
       "order": 2,
+      "resistances": {
+        "chop": 0,
+        "poison": 0,
+        "spirit": 0,
+        "pierce": 0.25,
+        "fire": 1.5
+      },
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/55/The_Elder.png",
       "image_local_path": null
     },
@@ -1116,6 +1132,13 @@
       "forsaken_power": "Grant +50% physical resistance",
       "order": 3,
       "notes": "Immune to pierce/slash/poison. Weak to blunt.",
+      "resistances": {
+        "blunt": 1.5,
+        "frost": 1.5,
+        "pierce": 0.25,
+        "fire": 0.25,
+        "poison": 0
+      },
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/a/a8/Bonemass_Definitive.png",
       "image_local_path": null
     },
@@ -1134,6 +1157,11 @@
       ],
       "forsaken_power": "Increase boat speed by 50%",
       "order": 4,
+      "resistances": {
+        "frost": 0,
+        "fire": 0,
+        "blunt": 0.5
+      },
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/1e/Moder.png",
       "image_local_path": null
     },
@@ -1152,6 +1180,11 @@
       ],
       "forsaken_power": "Provide +25% elemental resistance",
       "order": 5,
+      "resistances": {
+        "fire": 0.5,
+        "pierce": 0.25,
+        "poison": 0
+      },
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/1/13/Yagluth_Definitive.png",
       "image_local_path": null
     },
@@ -1170,6 +1203,10 @@
       ],
       "forsaken_power": "Improve mage energy regeneration",
       "order": 6,
+      "resistances": {
+        "pierce": 0.5,
+        "spirit": 0
+      },
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/f/fb/The_Queen.png",
       "image_local_path": null
     },
@@ -1187,6 +1224,11 @@
       "forsaken_power": "Grant +30% fire resistance",
       "order": 7,
       "notes": "Scales with players: 4p=47.5k HP",
+      "resistances": {
+        "pierce": 0.5,
+        "fire": 0,
+        "spirit": 0
+      },
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/98/Fader.png",
       "image_local_path": null
     }
