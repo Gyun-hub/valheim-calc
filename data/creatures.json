@@ -430,6 +430,91 @@
       "behavior": "aggressive",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/58/Lava_Blob.png",
       "image_local_path": null
+    },
+    {
+      "name_en": "Abomination",
+      "name_ko": "어보미네이션",
+      "biomes": [
+        "Swamp"
+      ],
+      "hp": 800,
+      "damage": "60-80 Blunt",
+      "resistances": {
+        "fire": 1.5,
+        "blunt": 0.5,
+        "pierce": 0.25,
+        "frost": 0,
+        "poison": 0,
+        "spirit": 0
+      },
+      "behavior": "aggressive",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Brenna",
+      "name_ko": "브레나",
+      "biomes": [
+        "Black Forest"
+      ],
+      "hp": 1200,
+      "damage": null,
+      "resistances": {
+        "blunt": 1.5,
+        "frost": 1.5,
+        "pierce": 0.5,
+        "fire": 0,
+        "poison": 0,
+        "chop": 0
+      },
+      "behavior": "aggressive",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Geirrhafa",
+      "name_ko": "게이르하파",
+      "biomes": [
+        "Mountain"
+      ],
+      "hp": 3700,
+      "damage": "60-70 Slash + 100 Frost (ranged)",
+      "resistances": {
+        "fire": 1.5,
+        "frost": 0
+      },
+      "behavior": "aggressive",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Zil & Thungr",
+      "name_ko": "질 & 퉁그르",
+      "biomes": [
+        "Plains"
+      ],
+      "hp": null,
+      "damage": "150 Blunt + 100 Fire (ranged)",
+      "resistances": {},
+      "behavior": "aggressive",
+      "image_source_url": null,
+      "image_local_path": null
+    },
+    {
+      "name_en": "Lord Reto",
+      "name_ko": "로드 레토",
+      "biomes": [
+        "Ashlands"
+      ],
+      "hp": null,
+      "damage": null,
+      "resistances": {
+        "frost": 0.5,
+        "spirit": 1.5
+      },
+      "behavior": "aggressive",
+      "image_source_url": null,
+      "image_local_path": null
     }
   ],
   "drop_tables": [
@@ -872,6 +957,110 @@
       "qty_min": 1,
       "qty_max": 1,
       "confidence": "datamined"
+    },
+    {
+      "creature_name_en": "Morgen",
+      "item_name_en": "Morgen Sinew",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 2,
+      "confidence": "datamined"
+    },
+    {
+      "creature_name_en": "Morgen",
+      "item_name_en": "Morgen Heart",
+      "chance_percent": 80,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "datamined"
+    },
+    {
+      "creature_name_en": "Morgen",
+      "item_name_en": "Trophy Morgen",
+      "chance_percent": 5,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "datamined"
+    },
+    {
+      "creature_name_en": "Abomination",
+      "item_name_en": "Root",
+      "chance_percent": 100,
+      "qty_min": 5,
+      "qty_max": 5,
+      "confidence": "datamined"
+    },
+    {
+      "creature_name_en": "Abomination",
+      "item_name_en": "Guck",
+      "chance_percent": 100,
+      "qty_min": 3,
+      "qty_max": 4,
+      "confidence": "datamined"
+    },
+    {
+      "creature_name_en": "Brenna",
+      "item_name_en": "Hildir's Brass Chest",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Brenna",
+      "item_name_en": "Trophy Brenna",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Geirrhafa",
+      "item_name_en": "Hildir's Silver Chest",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Geirrhafa",
+      "item_name_en": "Trophy Geirrhafa",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Zil & Thungr",
+      "item_name_en": "Hildir's Bronze Chest",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Zil & Thungr",
+      "item_name_en": "Trophy Zil",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Zil & Thungr",
+      "item_name_en": "Trophy Thungr",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
+    },
+    {
+      "creature_name_en": "Lord Reto",
+      "item_name_en": "Dyrnwyn Hilt Fragment",
+      "chance_percent": 100,
+      "qty_min": 1,
+      "qty_max": 1,
+      "confidence": "community"
     }
   ],
   "bosses": [

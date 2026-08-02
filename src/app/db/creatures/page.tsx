@@ -6,7 +6,7 @@ import type { BiomeName } from "@/lib/types";
 
 export const metadata = {
   title: "몬스터 도감",
-  description: "발헤임 몬스터 27종 목록. 서식 바이옴, 체력, 공격성 정보를 검색·필터로 찾아보세요.",
+  description: "발헤임 몬스터 32종 목록. 서식 바이옴, 체력, 공격성 정보를 검색·필터로 찾아보세요.",
   alternates: { canonical: "/db/creatures/" },
 };
 

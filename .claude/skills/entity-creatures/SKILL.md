@@ -21,8 +21,8 @@ src/components/creatures/*.tsx   (보스와 공유 — damageLabels.ts 주의)
 ## 반드시 지킬 것
 
 ### `damage` 는 `ParsedDamage` 객체다
-`parseDamage()` 가 문자열을 정규화하지만 **27종 중 7종은 수치가 없다**
-(Blob · Surtling · Fuling · Seeker · Drake · Morgen · Lava Blob).
+`parseDamage()` 가 문자열을 정규화하지만 **32종 중 9종은 수치가 없다**
+(Blob · Surtling · Fuling · Seeker · Drake · Morgen · Lava Blob · Brenna · Lord Reto).
 
 - `damage.parsed === false` 분기를 반드시 유지
 - 그 경우 `DamageStat` 의 `UNQUANTIFIED_KO` 사전에서 한국어 설명을 꺼낸다

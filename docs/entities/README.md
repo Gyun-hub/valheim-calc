@@ -8,7 +8,7 @@
 | 엔티티 | 문서 | 라우트 | 항목 |
 |---|---|---|---|
 | 아이템 | [items.md](items.md) | `/db/items` | 74 |
-| 몬스터 | [creatures.md](creatures.md) | `/db/creatures` | 27 |
+| 몬스터 | [creatures.md](creatures.md) | `/db/creatures` | 32 |
 | 보스 | [bosses.md](bosses.md) | `/db/bosses` | 7 |
 | 음식 | [food.md](food.md) | `/db/food` | 38 |
 | 미드·포션 | [mead.md](mead.md) | `/db/mead` | 16 |

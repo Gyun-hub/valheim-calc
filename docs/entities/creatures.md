@@ -4,8 +4,8 @@
 
 | 항목 | 위치 | 개수 | 타입 |
 |---|---|---|---|
-| 몬스터 | `data/creatures.json` → `creatures[]` | 27 | `Creature` |
-| 드롭 테이블 | `creatures.json` → `drop_tables[]` | 55 | `DropEntry` |
+| 몬스터 | `data/creatures.json` → `creatures[]` | 32 | `Creature` |
+| 드롭 테이블 | `creatures.json` → `drop_tables[]` | 68 | `DropEntry` |
 | 길들이기 | `creatures.json` → `taming_breeding[]` | 5 | `TamingInfo` |
 
 ```ts
@@ -40,7 +40,8 @@ src/components/creatures/
 | 무해 | `"0"` | `total: 0`, `parsed: true` |
 | **수치 없음** | `"Fire explosion"` · `"Varies"` | **`parsed: false`** |
 
-**`parsed === false` 가 7종 있다**: Blob · Surtling · Fuling · Seeker · Drake · Morgen · Lava Blob.
+**`parsed === false` 가 9종 있다**: Blob · Surtling · Fuling · Seeker · Drake · Morgen · Lava Blob ·
+Brenna · Lord Reto.
 
 → `DamageStat` 이 이 경우 `UNQUANTIFIED_KO` 사전에서 한국어 설명을 꺼내 보여준다.
 새 표기가 생기면 그 사전에 문장을 추가할 것. **"파싱 실패" 같은 내부 용어를
@@ -51,8 +52,8 @@ src/components/creatures/
 배율을 그대로 보여주면 반대로 읽힌다 — `damageLabels.ts` 의
 `interpretResistances()` 로 해석해서 표시한다.
 
-### 드롭 데이터가 없는 몬스터 6종
-Drake · Seeker · Gjall · Tick · Morgen · Lava Blob 은 `drop_tables` 에 항목이 없다.
+### 드롭 데이터가 없는 몬스터 5종
+Drake · Seeker · Gjall · Tick · Lava Blob 은 `drop_tables` 에 항목이 없다.
 `MissingDataNote` 로 처리.
 
 ### 길들이기 데이터 2건이 고아
@@ -60,8 +61,16 @@ Drake · Seeker · Gjall · Tick · Morgen · Lava Blob 은 `drop_tables` 에 �
 도달 가능한 건 멧돼지·늑대·록스뿐. (`Asksvin` / `Askvin` 표기 흔들림도 있음)
 
 ### 드롭 아이템 이름 대부분이 영문으로 표시된다
-`drop_tables[].item_name_en` 44종 중 33종이 `items[]` 에 없어
+`drop_tables[].item_name_en` 57종 중 44종이 `items[]` 에 없어
 `koName()` 이 영문명으로 폴백한다. 코드 문제가 아니라 데이터 결측.
+
+### 미니보스 4종 (2026-08 추가)
+Brenna·Geirrhafa·Zil & Thungr·Lord Reto는 발헤임 공식 "보스"(제단 소환)가
+아니라 던전 안에 고정 스폰되는 네임드 미니보스다 (Hildir's Request /
+Tomb of Lord Reto 사이드 콘텐츠). `bosses[]`가 아니라 일반 `creatures[]`에
+넣었다 — summon_item·forsaken_power 같은 보스 전용 필드가 안 맞기 때문.
+`Zil & Thungr`는 원래 개별 체력바 2개짜리 듀오 조우인데 스키마상 한 개체로
+합쳐 넣었고, `hp`가 정확히 확인 안 돼 `null`이다.
 
 ## 표시 규칙
 
