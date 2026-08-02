@@ -992,7 +992,8 @@
         "Surtling Cores",
         "Core Wood",
         "Greydwarf Eyes",
-        "Thistle"
+        "Thistle",
+        "Ectoplasm"
       ],
       "key_creatures": [
         "Greydwarf",
@@ -1000,11 +1001,13 @@
         "Greydwarf Shaman",
         "Skeleton",
         "Ghost",
-        "Troll"
+        "Troll",
+        "Brenna"
       ],
       "notable_structures": [
         "Burial Chambers",
-        "Troll Caves"
+        "Troll Caves",
+        "Smouldering Tombs"
       ],
       "special_mechanics": "Mining attracts enemies; requires Antler Pickaxe for ore extraction; Bronze Age progression",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/c/cf/Biome_blackforest.png",
@@ -1083,12 +1086,14 @@
         "Stone Golem",
         "Fenring",
         "Cultist",
-        "Bat"
+        "Bat",
+        "Geirrhafa"
       ],
       "notable_structures": [
         "Frost Caves",
         "Cabins",
-        "Ancient Shrines"
+        "Ancient Shrines",
+        "Howling Cavern"
       ],
       "special_mechanics": "Freezing heavily punishes regen; Wishbone tool reveals silver veins; dragon eggs are heavy and non-portable",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/7/78/Biome_mountain.png",
@@ -1114,12 +1119,14 @@
         "Fuling Shaman",
         "Fuling Berserker",
         "Lox",
-        "Growth"
+        "Growth",
+        "Zil & Thungr"
       ],
       "notable_structures": [
         "Fuling Villages",
         "Tar Pits",
-        "Abandoned Farms"
+        "Abandoned Farms",
+        "Sealed Tower"
       ],
       "special_mechanics": "Provides farming staples; tar pits yield building materials; hostile to large groups",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/9/91/Biome_heath.png",
@@ -1173,12 +1180,17 @@
         "Charred",
         "Askvin",
         "Surtling",
-        "Fire Hazards"
+        "Fire Hazards",
+        "Morgen",
+        "Lord Reto"
       ],
       "notable_structures": [
         "Ashlands Altar",
         "Fortified Ruins",
-        "Lava Pits"
+        "Lava Pits",
+        "Charred Fortress",
+        "Putrid Hole",
+        "Tomb of Lord Reto"
       ],
       "special_mechanics": "Designed to overwhelm unprepared players; requires endgame preparation and strategic positioning; extreme environmental hazards",
       "image_source_url": "https://static.wikia.nocookie.net/valheim/images/5/56/Biome_ashlands.png",
