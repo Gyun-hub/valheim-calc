@@ -461,6 +461,75 @@ export const biomesBySlug = buildSlugMap(biomes, "biomes");
 /** nameEn → Item. 재료 이름으로 아이템을 되찾을 때 쓴다 */
 export const itemsByNameEn: ReadonlyMap<string, Item> = new Map(items.map((i) => [i.nameEn, i]));
 
+/**
+ * 아이템/몬스터로 별도 등록되지 않은 이름의 번역 전용 사전.
+ *
+ * `data/food-biomes.json` 의 `biomes[].key_resources`/`key_creatures` 는
+ * items.json·creatures.json 에 없는 이름을 다수 참조한다(예: 바이옴 개요용
+ * 대표 자원 "Berries" 는 실제 아이템으로 등록되지 않고 이름만 언급됨).
+ * 새 아이템/몬스터 엔티티를 만들지 않고 표시용 한글명만 보충하기 위한 사전.
+ *
+ * 번역 출처는 `data/food-biomes.json` `meta.notes` 방침과 동일
+ * (나무위키, 스팀 한국 커뮤니티, KoreanTranslationFix 모드 등의 통용 표기).
+ * 이미 items/creatures/bosses 등에 등록된 이름은 절대 포함하지 말 것
+ * (중복 시 `nameKoByNameEn` 조합 순서상 이 사전이 덮어쓴다).
+ */
+const EXTRA_NAME_KO: Record<string, string> = {
+  // 자원 (key_resources)
+  Berries: "베리류",
+  Mushrooms: "버섯",
+  "Surtling Cores": "서틀링 코어",
+  "Greydwarf Eyes": "회색 난쟁이의 눈",
+  Thistle: "엉겅퀴",
+  Ectoplasm: "엑토플라즘",
+  Chitin: "키틴",
+  "Serpent Meat": "바다뱀 고기",
+  "Serpent Scales": "바다뱀 비늘",
+  "Ocean Fish": "바다 물고기",
+  "Withered Bone": "시든 뼈",
+  "Turnip Seeds": "순무 씨앗",
+  Ooze: "점액",
+  Obsidian: "흑요석",
+  "Onion Seeds": "양파 씨앗",
+  "Freeze Gland": "냉기샘",
+  Crystal: "수정",
+  Barley: "보리",
+  Flax: "아마",
+  Cloudberries: "클라우드베리",
+  "Lox Meat": "록스 고기",
+  Needle: "바늘",
+  Tar: "타르",
+  "Black Core": "검은 코어",
+  Sap: "수액",
+  "Soft Tissue": "연조직",
+  "Black Marble": "검은 대리석",
+  "Yggdrasil Wood": "이그드라실 나무",
+  Ashwood: "애쉬우드",
+  Askvin: "애스크빈",
+  "Bell Fragment": "종 파편",
+  Iolite: "아이올라이트",
+  Jade: "옥",
+  Bloodstone: "블러드스톤",
+  // 몬스터 (key_creatures)
+  Bee: "꿀벌",
+  Ghost: "유령",
+  Serpent: "바다뱀",
+  Leviathan: "레비아탄",
+  Oozer: "우저",
+  Cultist: "광신자",
+  Bat: "박쥐",
+  "Fuling Shaman": "풀링 주술사",
+  "Fuling Berserker": "풀링 광전사",
+  Growth: "그로쓰",
+  "Seeker Soldier": "추적자 병사",
+  Brood: "브루드",
+  Charred: "카르드",
+  "Fire Hazards": "화재 위험 요소",
+  Gammeltroll: "감멜트롤",
+  "Elakingar (Underground)": "엘라킹가르 (지하)",
+  "Viking Ghost": "바이킹 유령",
+};
+
 /** nameEn → 한글명. 재료·드롭 표시에 공통으로 쓰는 룩업 */
 export const nameKoByNameEn: ReadonlyMap<string, string> = new Map([
   ...items.map((e) => [e.nameEn, e.nameKo] as const),
@@ -472,6 +541,7 @@ export const nameKoByNameEn: ReadonlyMap<string, string> = new Map([
   ...biomes.map((e) => [e.nameEn, e.nameKo] as const),
   ...ships.map((e) => [e.nameEn, e.nameKo] as const),
   ...magicItems.map((e) => [e.nameEn, e.nameKo] as const),
+  ...Object.entries(EXTRA_NAME_KO),
 ]);
 
 /**
